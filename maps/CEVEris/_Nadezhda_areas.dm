@@ -774,6 +774,9 @@
 	name = "Public Hydroponics"
 	icon_state = "erisblue"
 
+/area/nadezhda/crew_quarters/park
+	name = "Park"
+	icon_state = "erisgreen"
 
 //Church
 

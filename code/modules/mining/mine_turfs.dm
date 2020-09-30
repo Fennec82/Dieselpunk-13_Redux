@@ -26,6 +26,24 @@
 	density = 1
 	opacity = 1
 
+/turf/unsimulated/wall/dungeons
+	name = "fortress wall"
+	desc = "The decrepit walls of a medieval fortress."
+	icon = 'icons/turf/wall_masks.dmi'
+	icon_state = "dungeons"
+	blocks_air = 1
+	density = 1
+	opacity = 1
+
+/turf/unsimulated/wall/dungeons2
+	name = "fortress wall"
+	desc = "The decrepit walls of a medieval fortress."
+	icon = 'icons/turf/wall_masks.dmi'
+	icon_state = "dungeons2"
+	blocks_air = 1
+	density = 1
+	opacity = 1
+
 /turf/simulated/mineral //wall piece
 	name = "Rock"
 	icon = 'icons/turf/walls.dmi'

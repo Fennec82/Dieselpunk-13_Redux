@@ -5,4 +5,6 @@
 # Ranks can be anything defined in admin_ranks.txt           ~Carn   #
 ######################################################################
 
-# somerussians - host
+isaacroberts316 - host
+derflammenwerfer - head admin
+risingstarslash - moderator

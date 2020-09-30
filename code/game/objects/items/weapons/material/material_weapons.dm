@@ -2,7 +2,7 @@
 // This class of weapons takes force and appearance data from a material datum.
 // They are also fragile based on material data and many can break/smash apart.
 /obj/item/weapon/material
-	health = 10
+	health = 50
 	hitsound = 'sound/weapons/bladeslice.ogg'
 	gender = NEUTER
 	throw_speed = 3
@@ -54,7 +54,7 @@
 		qdel(src)
 	else
 		name = "[material.display_name] [initial(name)]"
-		health = round(material.integrity/10)
+		health = round(material.integrity/50)
 		if(applies_material_colour)
 			color = material.icon_colour
 		if(material.products_need_process())

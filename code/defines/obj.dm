@@ -107,6 +107,19 @@
 	icon_state = "wooden_tv_broken"
 	desc = "An entertainment monitor with various channels."
 
+/obj/structure/showcase/dungeongrille
+	name = "metal bars"
+	icon = 'icons/obj/stationobjs.dmi'
+	icon_state = "dungeongrille"
+	desc = "A rusted bar to protect from the flames."
+
+/obj/structure/showcase/forge
+	name = "fire pit"
+	icon = 'icons/obj/forge.dmi'
+	icon_state = "forge1"
+	desc = "A stone forge bringing light to the fortress."
+
+
 /obj/structure/showcase/skeleton
 	name = "hanging skeleton model"
 	icon = 'icons/obj/stationobjs.dmi'

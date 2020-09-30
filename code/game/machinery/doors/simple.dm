@@ -185,3 +185,9 @@
 
 /obj/machinery/door/unpowered/simple/resin/New(var/newloc,var/material_name)
 	..(newloc, MATERIAL_RESIN)
+
+/obj/machinery/door/unpowered/simple/dungeons
+	icon_state = "med"
+
+/obj/machinery/door/unpowered/simple/dungeons/New(var/newloc)
+	..(newloc)

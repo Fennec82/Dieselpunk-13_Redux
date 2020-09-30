@@ -133,3 +133,18 @@
 	name = "female toilets"
 	desc = "A female toilet sign."
 	icon_state = "toiletfemale"
+
+/obj/structure/sign/misc/tapestry
+	name = "tapestry"
+	desc = "A medieval cloth displaying the fortress symbol."
+	icon_state = "tapestry"
+
+/obj/structure/sign/misc/fortwindow
+	name = "fortress window"
+	desc = "A firmly secured window. It looks dark outside."
+	icon_state = "fortwindow"
+
+/obj/structure/sign/misc/fortwindow2
+	name = "fortress window"
+	desc = "A firmly secured window. This one is shut."
+	icon_state = "fortwindow2"

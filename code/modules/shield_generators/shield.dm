@@ -56,6 +56,15 @@
 	else
 		icon_state = "shield_normal"
 
+/*It's the same sort of overlay code, so it can go here.*/
+
+/obj/effect/water
+	name = "water"
+	desc = "The dark hue of the ocean. Thankfully, it's simulated."
+	icon = 'icons/turf/flooring/beach.dmi'
+	icon_state = "water2"
+	alpha = 210
+
 /*
 This is a bad way to solve this "problem".
 I'm commenting it out because that incorrect qdeled param is gonna cause fun problems.

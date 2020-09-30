@@ -7,6 +7,7 @@
 #include "../encounters/deepforest/deepforest.dm"
 #include "../encounters/spacefortress/spacefortress.dm"
 #include "centcomm.dmm"
+#include "Nadezhda_Colony_Rec.dmm"
 
 /obj/map_data/eris
 	name = "Eris"
@@ -47,7 +48,7 @@
 	is_contact_level = TRUE
 	is_accessable_level = FALSE
 	is_sealed = TRUE
-	height = 4
+	height = 1
 
 /obj/map_data/admin
 	name = "Admin Level"

@@ -19,7 +19,6 @@
 	icon = 'icons/turf/wall_masks.dmi'
 	icon_state = "rockold"
 
-
 //Shuttle Floors
 /obj/landed_holder
 	name = "landed turf holder"

@@ -41,6 +41,16 @@
 	icon_state = "oracarpet"
 	initial_flooring = /decl/flooring/carpet/oracarpet
 
+/turf/simulated/floor/carpet/medcarpet
+	name = "medieval carpet"
+	icon_state = "dungeoncarpet"
+	initial_flooring = /decl/flooring/carpet/medcarpet
+
+/turf/simulated/floor/carpet/medcarpet2
+	name = "medieval carpet"
+	icon_state = "dungeoncarpet2"
+	initial_flooring = /decl/flooring/carpet/medcarpet2
+
 /*Grid*/
 
 /turf/simulated/floor/bluegrid
@@ -83,6 +93,11 @@
 /turf/simulated/floor/wood/wild5
 	icon_state = "wooden_floor_s5"
 	initial_flooring = /decl/flooring/wood/wild5
+
+/turf/simulated/floor/wood/dungeons
+	name = "fortress planks"
+	icon_state = "dungeons"
+	initial_flooring = /decl/flooring/wood/dungeons
 
 /*Tiled*/
 
@@ -703,6 +718,11 @@
 	name = "rocks"
 	icon_state = "stone_old2"
 	initial_flooring = /decl/flooring/rock/manmade/ruin3
+
+/turf/simulated/floor/rock/manmade/dungeons
+	name = "fortress floor"
+	icon_state = "dungeons"
+	initial_flooring = /decl/flooring/rock/manmade/dungeons
 
 /turf/simulated/floor/rock/manmade/pavement1
 	name = "pavement"

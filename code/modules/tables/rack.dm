@@ -25,3 +25,21 @@
 	name = "shelf"
 	desc = "For showing off your collections of dust, electronics, the heads of your enemies and tools."
 	icon_state = "shelf"
+
+/obj/structure/table/rack/dungeons
+	name = "fortress table"
+	desc = "A grand wooden table for adventurers of old."
+	icon = 'icons/obj/structures.dmi'
+	icon_state = "bigtable"
+
+/obj/structure/table/rack/dungeonsmid1
+	name = "fortress side table"
+	desc = "A thin wooden table for storing equipment."
+	icon = 'icons/obj/structures.dmi'
+	icon_state = "thintable"
+
+/obj/structure/table/rack/dungeonsmid2
+	name = "fortress side table"
+	desc = "A thin wooden table for storing equipment."
+	icon = 'icons/obj/structures.dmi'
+	icon_state = "thintable2"

@@ -325,6 +325,16 @@ var/list/flooring_types
 	icon_base = "oracarpet"
 	build_type = /obj/item/stack/tile/carpet/oracarpet
 
+/decl/flooring/carpet/medcarpet
+	name = "medieval carpet"
+	icon_base = "dungeoncarpet"
+	build_type = null
+
+/decl/flooring/carpet/medcarpet2
+	name = "medieval carpet"
+	icon_base = "dungeoncarpet2"
+	build_type = null
+
 //==========TILING==============\\
 
 /decl/flooring/tiling
@@ -633,6 +643,9 @@ var/list/flooring_types
 /decl/flooring/wood/wild5
 	icon_base = "wooden_floor_s5"
 
+/decl/flooring/wood/dungeons
+	icon_base = "dungeons"
+
 /decl/flooring/reinforced
 	name = "reinforced floor"
 	desc = "Heavily reinforced with steel rods."
@@ -917,6 +930,9 @@ var/list/flooring_types
 
 /decl/flooring/rock/manmade/ruin3
 	icon_base = "stone_old2"
+
+/decl/flooring/rock/manmade/dungeons
+	icon_base = "dungeons"
 
 /decl/flooring/rock/manmade/pavement1
 	icon_base = "pave_empty"

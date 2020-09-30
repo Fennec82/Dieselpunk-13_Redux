@@ -32,13 +32,15 @@
 	)
 
 /obj/item/weapon/circuitboard/diesel
-	build_name = "excelsior diesel generator"
+	build_name = "diesel generator"
 	build_path = /obj/machinery/power/port_gen/pacman/diesel
 	board_type = "machine"
 	origin_tech = list(TECH_DATA = 3, TECH_POWER = 3, TECH_PLASMA = 3, TECH_ENGINEERING = 3, TECH_ILLEGAL = 2)
 	req_components = list(
-		/obj/item/weapon/stock_parts/manipulator = 1,
-		/obj/item/weapon/stock_parts/console_screen = 1
+		/obj/item/weapon/stock_parts/matter_bin = 1,
+		/obj/item/weapon/stock_parts/micro_laser = 1,
+		/obj/item/stack/cable_coil = 2,
+		/obj/item/weapon/stock_parts/capacitor = 1
 	)
 
 /obj/item/weapon/circuitboard/excelsior_boombox
@@ -71,6 +73,16 @@
 		/obj/item/weapon/stock_parts/manipulator = 2,
 		/obj/item/device/assembly/prox_sensor = 1,
 		/obj/item/weapon/cell/medium = 1
+	)
+
+/obj/item/weapon/circuitboard/artificer_turret
+	build_name = "artificer turret"
+	build_path = /obj/machinery/porta_turret/artificer
+	board_type = "machine"
+	origin_tech = list(TECH_COMBAT = 5)
+	req_components = list(
+		/obj/item/weapon/stock_parts/manipulator = 2,
+		/obj/item/device/assembly/prox_sensor = 1,
 	)
 
 //Putting this here since its an antag type item and making a full .dm for 9 lines of code is.. dumb. -Kaz

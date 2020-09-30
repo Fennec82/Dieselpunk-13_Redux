@@ -6,8 +6,8 @@
 	item_state = "metalbat0"
 	attack_verb = list("smashed", "beaten", "slammed", "smacked", "struck", "battered", "bonked")
 	hitsound = 'sound/weapons/genhit3.ogg'
-	default_material = MATERIAL_WOOD
-	force_divisor = 0.84           // 15 when unwielded 22 when wielded with weight 18 (wood)
+	default_material = MATERIAL_STEEL
+	force_divisor = 1
 	slot_flags = SLOT_BACK
 	structure_damage_factor = STRUCTURE_DAMAGE_HEAVY
 
