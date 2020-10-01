@@ -15,7 +15,7 @@
 	var/desc = "You should not see this..."
 	var/ani_state // State when wagging/animated
 	var/extra_overlay_w // Wagging state for extra overlay
-	var/layers = 0
+	var/layers = 0 // Icon state of an additional overlay to blend in.
 	var/list/hide_body_parts = list() //Uses organ tag defines. Bodyparts in this list do not have their icons rendered, allowing for more spriter freedom when doing taur/digitigrade stuff.
 	var/icon/clip_mask_icon = null //Icon file used for clip mask.
 	var/clip_mask_state = null //Icon state to generate clip mask. Clip mask is used to 'clip' off the lower part of clothing such as jumpsuits & full suits.
@@ -34,7 +34,7 @@
 	icon_state = "armalis"
 	colored_layers = 1
 
-/datum/sprite_accessory/tail/aronai
+datum/sprite_accessory/tail/aronai
 	name = "Aronai Tail"
 	desc = ""
 	icon_state = "aronai"
@@ -78,7 +78,7 @@
 	colored_layers = 1
 	blend = ICON_MULTIPLY
 
-/datum/sprite_accessory/tail/crossfox
+datum/sprite_accessory/tail/crossfox
 	name = "Cross Fox Tail"
 	desc = ""
 	icon_state = "crossfox"
@@ -295,6 +295,14 @@
 	desc = ""
 	icon_state = "seromitail_feathers_hc_s"
 	colored_layers = 1
+	blend = ICON_MULTIPLY
+
+/datum/sprite_accessory/tail/teshari_fluffytail
+	name = "Teshari alternative, colorable"
+	desc = ""
+	icon_state = "teshari_fluffytail"
+	extra_overlay = "teshari_fluffytail_mark"
+	colored_layers = 2
 	blend = ICON_MULTIPLY
 
 /datum/sprite_accessory/tail/shorttail

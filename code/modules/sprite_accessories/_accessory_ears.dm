@@ -353,11 +353,18 @@
 	colored_layers = 1
 	blend = ICON_MULTIPLY
 
-/*
 /datum/sprite_accessory/ears/teshari
 	name = "Teshari Fluff"
 	desc = ""
 	icon_state = "teshari"
+	colored_layers = 2
+	blend = ICON_MULTIPLY
+
+/datum/sprite_accessory/tail/teshari_fluffytail
+	name = "Teshari alternative, colorable"
+	desc = ""
+	icon_state = "teshari_fluffytail"
+	extra_overlay = "teshari_fluffytail_mark"
 	colored_layers = 2
 	blend = ICON_MULTIPLY
 
@@ -374,7 +381,6 @@
 	icon_state = "tesharihigh"
 	colored_layers = 2
 	blend = ICON_MULTIPLY
-*/
 
 /datum/sprite_accessory/ears/tigress
 	name = "Tigress Ears"

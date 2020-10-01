@@ -10,6 +10,8 @@
 	icon = 'icons/mob/human_races/species/human/hair.dmi'
 	species_allowed = list(
 		SPECIES_HUMAN,
+		SPECIES_TESHARI,
+		FORM_TESHARI,
 		FORM_MARQUA,
 		FORM_SABLEKYNE,
 		FORM_KRIOSAN,
@@ -17,7 +19,7 @@
 		FORM_CHTMANT,
 		FORM_CINDAR,
 		FORM_NARAMAD,
-		FORM_OPIFEX
+		FORM_OPIFEX,
 		)
 
 /datum/sprite_accessory/hair/bald
@@ -721,7 +723,7 @@
 	name = "Zone Braid"
 	icon_state = "zone"
 
-/*
+//Teshari hairs
 /datum/sprite_accessory/hair/teshari_default
 	name = "Teshari default"
 	icon_state = "teshari_default_s"
@@ -777,8 +779,8 @@
 /datum/sprite_accessory/hair/teshari_spiky
 	name = "Teshari spiky"
 	icon_state = "teshari_spiky_s"
-*/
 
+//Lizard hairs
 /datum/sprite_accessory/hair/una_hood
 	name = "Lizard Hood"
 	icon_state = "soghun_hood_s"

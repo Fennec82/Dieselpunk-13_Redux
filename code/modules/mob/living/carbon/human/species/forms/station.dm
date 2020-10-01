@@ -49,6 +49,17 @@
 	deform = 'icons/mob/human_races/r_def_tajaran_white.dmi'
 	appearance_flags = HAS_HAIR_COLOR | HAS_EYE_COLOR | HAS_SKIN_COLOR | HAS_UNDERWEAR
 
+/datum/species_form/teshari
+	playable = TRUE
+	name = FORM_TESHARI
+	base = 'icons/mob/human_races/r_seromi_white.dmi'
+	deform = 'icons/mob/human_races/r_seromi_white.dmi'
+	damage_overlays = 'icons/mob/human_races/masks/dam_seromi.dmi'
+	damage_mask = 'icons/mob/human_races/masks/dam_mask_seromi.dmi'
+	blood_mask = 'icons/mob/human_races/masks/blood_seromi.dmi'
+	suit_storage_icon = 'icons/mob/species/seromi/belt_mirror.dmi'
+	appearance_flags = HAS_HAIR_COLOR | HAS_EYE_COLOR | HAS_SKIN_COLOR
+
 /datum/species_form/shark
 	playable = TRUE
 	name = FORM_SHARK

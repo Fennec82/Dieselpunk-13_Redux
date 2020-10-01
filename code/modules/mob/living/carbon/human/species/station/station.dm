@@ -486,3 +486,40 @@
 
 /datum/species/cindarite/get_bodytype()
 	return "Cindarite"
+
+/datum/species/teshari
+	name = "Teshari"
+	name_plural = "Teshari"
+	default_form = FORM_TESHARI
+	obligate_form = TRUE
+	unarmed_types = list(/datum/unarmed_attack/claws, /datum/unarmed_attack/punch, /datum/unarmed_attack/stomp,  /datum/unarmed_attack/kick, /datum/unarmed_attack/bite)
+	num_alternate_languages = 2
+	name_language = null
+	min_age = 12
+	max_age = 42
+	blurb = "How did you find this? Report this to Kazkin if you're reading it."
+	siemens_coefficient = 0.5
+	spawn_flags = CAN_JOIN
+	hunger_factor = DEFAULT_HUNGER_FACTOR/2
+	blood_color = "#D514F7"
+	flesh_color = "#5F7BB0"
+	
+	stat_modifiers = list(
+		STAT_BIO = 2,
+		STAT_COG = 2,
+		STAT_MEC = 2,
+		STAT_ROB = 2,
+		STAT_TGH = 2,
+		STAT_VIG = 2
+	)
+	dark_color = "#dddddd"
+	light_color = "#dddddd"
+
+	permitted_ears  = list("Teshari Fluff","Teshari Fluff, Lower Ear","Teshari Fluff, Upper Ear")
+	permitted_tail  = list("Seromi Tail","Seromi Tail, Feathers","Teshari alternative, colorable")
+	permitted_wings = list()
+
+	perks = list(/datum/perk/backup)
+
+/datum/species/teshari/get_bodytype()
+	return "Teshari"
