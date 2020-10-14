@@ -4,6 +4,7 @@
 	icon = 'icons/obj/guns/energy/laser.dmi'
 	icon_state = "laser"
 	item_state = "laser"
+	item_charge_meter = TRUE
 	fire_sound = 'sound/weapons/Laser.ogg'
 	slot_flags = SLOT_BACK
 	w_class = ITEM_SIZE_NORMAL
@@ -13,7 +14,7 @@
 	one_hand_penalty = 10
 	origin_tech = list(TECH_COMBAT = 3, TECH_MAGNET = 2)
 	matter = list(MATERIAL_PLASTEEL = 20, MATERIAL_WOOD = 8, MATERIAL_SILVER = 5)
-	price_tag = 2500
+	price_tag = 1250
 	projectile_type = /obj/item/projectile/beam/midlaser
 	charge_cost = 50
 	burst = 2
@@ -43,6 +44,7 @@
 	origin_tech = list(TECH_COMBAT = 4, TECH_MAGNET = 6, TECH_ENGINEERING = 6)
 	matter = list(MATERIAL_PLASTEEL = 20, MATERIAL_STEEL = 8, MATERIAL_SILVER = 10)
 	charge_cost = 2000
+	gun_tags = list(GUN_PROJECTILE, GUN_LASER, GUN_ENERGY)
 	suitable_cell = /obj/item/weapon/cell/large
 	one_hand_penalty = 15 //full sized shotgun level
 	fire_delay = 14 //Equivalent to a pump then fire time
@@ -54,7 +56,7 @@
 		list(mode_name="incendiary", projectile_type=/obj/item/projectile/bullet/shotgun/incendiary/railgun, icon="destroy"),
 	)
 	var/consume_cell = TRUE
-	price_tag = 3500
+	price_tag = 1750
 
 /obj/item/weapon/gun/energy/laser/railgun/consume_next_projectile()
 	.=..()
@@ -80,6 +82,7 @@
 	force = WEAPON_FORCE_NORMAL
 	origin_tech = list(TECH_COMBAT = 4, TECH_MAGNET = 4, TECH_ENGINEERING = 4)
 	matter = list(MATERIAL_PLASTEEL = 15, MATERIAL_STEEL = 4, MATERIAL_SILVER = 5)
+	gun_tags = list(GUN_PROJECTILE, GUN_LASER, GUN_ENERGY)
 	fire_delay = 12
 	charge_cost = 200
 	recoil_buildup = 1
@@ -92,7 +95,7 @@
 		list(mode_name="incendiary", projectile_type=/obj/item/projectile/bullet/kurtz/incendiary, icon="destroy"),
 	)
 	consume_cell = TRUE
-	price_tag = 2500
+	price_tag = 1250
 
 /obj/item/weapon/gun/energy/shrapnel
 	name = "\"Shellshock\" scrap rifle"
@@ -103,12 +106,13 @@
 	item_charge_meter = TRUE
 	w_class = ITEM_SIZE_BULKY
 	force = WEAPON_FORCE_PAINFUL
+	gun_tags = list(GUN_PROJECTILE, GUN_LASER, GUN_ENERGY)
 	twohanded = TRUE
 	flags =  CONDUCT
 	slot_flags = SLOT_BACK
 	origin_tech = list(TECH_COMBAT = 3, TECH_MAGNET = 2)
 	matter = list(MATERIAL_PLASTEEL = 20, MATERIAL_STEEL = 8)
-	charge_cost = 200
+	charge_cost = 100
 	suitable_cell = /obj/item/weapon/cell/medium
 	one_hand_penalty = 15 //full sized shotgun level
 	fire_delay = 14 //Equivalent to a pump then fire time
@@ -120,7 +124,7 @@
 		list(mode_name="incendiary", projectile_type=/obj/item/projectile/bullet/lrifle/incendiary, icon="destroy"),
 	)
 	var/consume_cell = TRUE
-	price_tag = 1000
+	price_tag = 500
 
 /obj/item/weapon/gun/energy/shrapnel/consume_next_projectile()
 	.=..()
@@ -149,7 +153,7 @@
 	origin_tech = list(TECH_COMBAT = 5, TECH_MATERIAL = 2)
 	slot_flags = SLOT_BELT
 	matter = list(MATERIAL_PLASTEEL = 11, MATERIAL_STEEL = 13, MATERIAL_PLASTIC = 2, MATERIAL_SILVER = 1, MATERIAL_GLASS = 2)
-	price_tag = 1000
+	price_tag = 500
 	damage_multiplier = 0.5 //makeshift laser
 	recoil_buildup = 3
 	one_hand_penalty = 4
@@ -157,7 +161,7 @@
 	projectile_type = /obj/item/projectile/beam
 	suitable_cell = /obj/item/weapon/cell/medium
 	charge_cost = 25 // 4 bursts with a 800m cell
-
+	gun_tags = list(GUN_LASER, GUN_ENERGY)
 	init_firemodes = list(
 		BURST_8_ROUND,
 		FULL_AUTO_400
@@ -208,11 +212,16 @@
 	damage_multiplier = 0.7
 	twohanded = FALSE
 
+/obj/item/weapon/gun/energy/laser/mounted/cyborg
+	name = "integrated \"Cog\" lasgun"
+	desc = "A Greyson Positronic design, cheap and widely produced. In the distant past - this was the main weapon of low-rank police forces, billions of copies of this gun were made."
+	recharge_time = 10 //Time it takes for shots to recharge (in ticks)
+
 /obj/item/weapon/gun/energy/laser/practice
 	name = "OT LG \"Lightfall\" - P"
 	desc = "A modified version of \"Old Testament\" brand laser carbine, this one fires less concentrated energy bolts, designed for target practice."
 	matter = list(MATERIAL_PLASTEEL = 20, MATERIAL_WOOD = 8, MATERIAL_SILVER = 2)
-	price_tag = 1000
+	price_tag = 500
 	projectile_type = /obj/item/projectile/beam/practice
 
 /obj/item/weapon/gun/energy/retro
@@ -228,8 +237,8 @@
 	matter = list(MATERIAL_STEEL = 12)
 	projectile_type = /obj/item/projectile/beam
 	fire_delay = 10 //old technology
-	one_hand_penalty = 10
-	price_tag = 2000
+	price_tag = 1000
+	gun_tags = list(GUN_LASER, GUN_ENERGY)
 	init_firemodes = list(
 		WEAPON_NORMAL,
 		WEAPON_CHARGE
@@ -251,7 +260,7 @@
 	projectile_type = /obj/item/projectile/beam
 	origin_tech = null
 	self_recharge = TRUE
-	price_tag = 4500
+	price_tag = 2250
 	init_firemodes = list(
 		WEAPON_NORMAL,
 		WEAPON_CHARGE
@@ -273,7 +282,7 @@
 	charge_cost = 100
 	fire_delay = 20
 	matter = list(MATERIAL_STEEL = 25, MATERIAL_SILVER = 4, MATERIAL_URANIUM = 1)
-	price_tag = 3000
+	price_tag = 1500
 	one_hand_penalty = 5
 	twohanded = TRUE
 	init_firemodes = list(
@@ -297,6 +306,7 @@
 	icon_state = "laser_turret"
 	damage_multiplier = 0.9
 	charge_meter = FALSE
+	twohanded = FALSE
 
 /obj/item/weapon/gun/energy/laser/railgun/mounted
 	name = "SDF SC \"Schrapnell\""
@@ -308,3 +318,4 @@
 	restrict_safety = TRUE
 	consume_cell = FALSE
 	cell_type = /obj/item/weapon/cell/small/high //Two shots
+	twohanded = FALSE

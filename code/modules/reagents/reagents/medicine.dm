@@ -122,8 +122,9 @@
 	M.adjust_hallucination(-0.9 * effect_multiplier)
 	M.adjustToxLoss(-((0.4 + (M.getToxLoss() * 0.05)) * effect_multiplier))
 	M.add_chemical_effect(CE_ANTITOX, 1)
-	holder.remove_reagent("pararein", 0.4 * effect_multiplier)
+	holder.remove_reagent("pararein", 0.8 * effect_multiplier)
 	holder.remove_reagent("blattedin", 0.4 * effect_multiplier)
+	holder.remove_reagent("toxin", 0.4 * effect_multiplier)
 
 /datum/reagent/medicine/carthatoline
 	name = "Carthatoline"
@@ -246,7 +247,7 @@ datum/reagent/medicine/respirodaxon/affect_blood(var/mob/living/carbon/M, var/al
 	taste_description = "sludge"
 	reagent_state = LIQUID
 	color = "#8080FF"
-	metabolism = REM * 0.5
+	metabolism = REM
 	scannable = 1
 	affects_dead = 1
 
@@ -266,7 +267,7 @@ datum/reagent/medicine/respirodaxon/affect_blood(var/mob/living/carbon/M, var/al
 	taste_description = "slime"
 	reagent_state = LIQUID
 	color = "#80BFFF"
-	metabolism = REM * 0.5
+	metabolism = REM
 	scannable = 1
 	affects_dead = 1 //This can even heal dead people.
 

@@ -71,6 +71,11 @@
 	desc = "You feel like this helmet is cheap, for some reason."
 	build_path = /obj/item/clothing/head/helmet/soteriasuit
 
+/datum/design/research/item/weapon/armor_laserproof
+	name = "Reflector armor vest"
+	desc = "Laser reflective armor."
+	build_path = /obj/item/clothing/suit/armor/laserproof/rnd
+
 /datum/design/research/item/weapon/katana
 	name = "Soteria \"Muramasa\" Katana"
 	build_path = /obj/item/weapon/tool/sword/katana/nano
@@ -100,25 +105,45 @@
 // Ammo
 /datum/design/research/item/ammo
 	name_category = "ammunition"
-	category = CAT_WEAPON
+	category = "Ammo"
 
 /datum/design/research/item/ammo/smg_mag
 	name = "smg magazine .35 Auto (Empty) "
 	desc = "A magazine for .35 Auto, used in smgs."
-	build_path = /obj/item/ammo_magazine/smg/empty
+	build_path = /obj/item/ammo_magazine/smg_35/empty
 	materials = list(MATERIAL_STEEL = 15)
 
 /datum/design/research/item/ammo/smg_mag/lethal
 	name = "smg magazine .35 Auto"
 	desc = "A magazine for .35 auto, used in smgs."
-	build_path = /obj/item/ammo_magazine/smg
+	build_path = /obj/item/ammo_magazine/smg_35
 	materials = list(MATERIAL_STEEL = 30)
 
 /datum/design/research/item/ammo/smg_mag/rubber
 	name = "smg magazine .35 Auto (Rubber)"
 	desc = "A magazine for .35 Auto (Rubber), used in smgs."
-	build_path = /obj/item/ammo_magazine/smg/rubber
+	build_path = /obj/item/ammo_magazine/smg_35/rubber
 	materials = list(MATERIAL_STEEL = 15, MATERIAL_PLASTIC = 5)
+
+/datum/design/research/item/ammo/pistol_laser
+	name = "auto .35, laser case"
+	desc = "An auto .35 case fitted with a one time use laser payload."
+	build_path = /obj/item/ammo_casing/pistol_35/laser
+
+/datum/design/research/item/ammo/magum_laser
+	name = "magnum .40, laser case"
+	desc = "A magnum .40 case fitted with a one time use laser payload."
+	build_path = /obj/item/ammo_casing/magnum_40/laser
+
+/datum/design/research/item/ammo/rifle_laser
+	name = "omni .408 laser casing."
+	desc = "A .408 Omni casing fitted with a one time use laser payload."
+	build_path = /obj/item/ammo_casing/heavy_rifle_408/laser
+
+/datum/design/research/item/ammo/kurtz_laser
+	name = "kurtz .50 , laser case"
+	desc = "A .50 kurtz case fitted with a one time use laser payload."
+	build_path = /obj/item/ammo_casing/kurtz_50/laser
 
 // Shotgun Ammo
 
@@ -131,6 +156,11 @@
 	name = "shotgun, incendiary"
 	desc = "A incendiary shell for a shotgun."
 	build_path = /obj/item/ammo_casing/shotgun/incendiary //We print one at a time fore balance
+
+/datum/design/research/item/ammo/shotgun_laser
+	name = "shotgun, laser case"
+	desc = "A laser based shell for a shotgun."
+	build_path = /obj/item/ammo_casing/shotgun/laser //We print one at a time fore balance
 
 // Misc Ammo
 

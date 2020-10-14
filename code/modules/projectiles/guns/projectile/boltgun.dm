@@ -25,7 +25,7 @@
 	var/bolt_open = 0
 	attack_verb = list("attacked", "slashed", "stabbed", "sliced", "torn", "ripped", "diced", "cut") // Considering attached bayonet
 	sharp = 1
-	gun_tags = list(GUN_PROJECTILE, GUN_INTERNAL_MAG)
+	gun_tags = list(GUN_PROJECTILE, GUN_INTERNAL_MAG, GUN_BAYONET)
 	saw_off = TRUE
 	sawn = /obj/item/weapon/gun/projectile/boltgun/sawn
 
@@ -120,13 +120,14 @@
 	recoil_buildup = 50
 	max_shells = 5
 	zoom_factor = 2.0
-	price_tag = 3000
+	price_tag = 1500
 	sharp = 0
 	caliber = CAL_HRIFLE
 	load_method = SINGLE_CASING
 	one_hand_penalty = 50 //No trick shots
 	matter = list(MATERIAL_PLASTEEL = 15, MATERIAL_PLASTIC = 10, MATERIAL_GLASS = 10)
 	origin_tech = list(TECH_COMBAT = 5, TECH_MATERIAL = 2)
+	gun_tags = list(GUN_PROJECTILE, GUN_INTERNAL_MAG)
 	saw_off = TRUE
 	sawn = /obj/item/weapon/gun/projectile/boltgun/sawn/scout
 
@@ -137,7 +138,7 @@
 	icon_state = "boltgun"
 	item_state = "boltgun"
 	max_shells = 10
-	price_tag = 2000
+	price_tag = 1000
 	damage_multiplier = 1
 	caliber = CAL_LRIFLE
 	matter = list(MATERIAL_PLASTEEL = 10, MATERIAL_PLASTIC = 10, MATERIAL_GLASS = 10)
@@ -152,7 +153,7 @@
 	icon_state = "boltgun"
 	item_state = "boltgun"
 	max_shells = 10
-	price_tag = 2000
+	price_tag = 1000
 	caliber = CAL_LRIFLE
 	matter = list(MATERIAL_PLASTEEL = 10, MATERIAL_WOOD = 10, MATERIAL_GLASS = 10)
 	saw_off = TRUE
@@ -167,13 +168,14 @@
 	force = WEAPON_FORCE_NORMAL
 	w_class = ITEM_SIZE_NORMAL
 	slot_flags = SLOT_BELT|SLOT_HOLSTER
-	price_tag = 150
+	price_tag = 75
 	sharp = 0
 	recoil_buildup = 60
 	penetration_multiplier = 0.5
 	damage_multiplier = 0.9
 	fire_delay = 18
 	one_hand_penalty = 10
+	gun_tags = list(GUN_PROJECTILE, GUN_INTERNAL_MAG)
 	matter = list(MATERIAL_STEEL = 10, MATERIAL_PLASTIC = 4)
 	saw_off = FALSE
 
@@ -234,7 +236,7 @@
 	icon_state = "starstriker"
 	item_state = "starstriker"
 	max_shells = 10
-	price_tag = 500 //no...
+	price_tag = 250 //no...
 	damage_multiplier = 1
 	caliber = CAL_SCI
 	origin_tech = list(TECH_COMBAT = 4, TECH_MATERIAL = 2, TECH_MAGNET = 3, TECH_POWER = 6)

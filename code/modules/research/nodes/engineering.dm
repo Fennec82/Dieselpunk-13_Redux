@@ -15,6 +15,7 @@
 	unlocks_designs = list(	/datum/design/research/item/science_tool,
 							/datum/design/research/item/part/basic_micro_laser,
 							/datum/design/research/item/part/basic_matter_bin,
+							/datum/design/research/item/part/consolescreen,
 							/datum/design/research/circuit/arcade_battle,
 							/datum/design/research/circuit/arcade_orion_trail,
 							/datum/design/research/circuit/autolathe,
@@ -367,7 +368,8 @@
 	required_tech_levels = list()
 	cost = 1000
 
-	unlocks_designs = list(/datum/design/research/item/part/high_micro_laser, /datum/design/research/item/part/adv_matter_bin)
+	unlocks_designs = list(/datum/design/research/item/part/high_micro_laser,
+							/datum/design/research/item/part/adv_matter_bin)
 
 /datum/technology/ultra_parts
 	name = "Super Parts"
@@ -382,7 +384,9 @@
 	required_tech_levels = list()
 	cost = 2000
 
-	unlocks_designs = list(/datum/design/research/item/part/ultra_micro_laser, /datum/design/research/item/part/super_matter_bin, /datum/design/research/item/medical/nanopaste)
+	unlocks_designs = list(/datum/design/research/item/part/ultra_micro_laser,
+						/datum/design/research/item/part/super_matter_bin,
+						/datum/design/research/item/medical/nanopaste)
 
 /datum/technology/super_adv_engineering
 	name = "Progressive Engineering"
@@ -397,7 +401,9 @@
 	required_tech_levels = list()
 	cost = 1500
 
-	unlocks_designs = list(/datum/design/research/item/part/RPED, /datum/design/research/circuit/secure_airlock, /datum/design/research/item/part/RPED/mini)
+	unlocks_designs = list(/datum/design/research/item/part/RPED,
+							 /datum/design/research/circuit/secure_airlock,
+							 /datum/design/research/item/part/RPED/mini)
 
 /datum/technology/industrial_printing
 	name = "Industrial Printing"
@@ -412,9 +418,10 @@
 	required_tech_levels = list(RESEARCH_ENGINEERING = 7)
 	cost = 3500
 
-	unlocks_designs = list(/datum/design/research/circuit/industrial_printer,
+	unlocks_designs = list(/datum/design/research/circuit/industrial_autolathe,
 							/datum/design/research/circuit/recharger_industrial,
-							/datum/design/research/circuit/industrial_grinder
+							/datum/design/research/circuit/industrial_grinder,
+							/datum/design/research/circuit/industrial_chems
 							)
 
 
@@ -453,7 +460,8 @@
 
 	unlocks_designs = list(	/datum/design/research/item/rig_drill,
 							/datum/design/research/item/rig_anomaly_scanner,
-							/datum/design/research/item/rig_ore_scanner
+							/datum/design/research/item/rig_ore_scanner,
+							/datum/design/research/item/rig_meson_goggles
 							)
 
 

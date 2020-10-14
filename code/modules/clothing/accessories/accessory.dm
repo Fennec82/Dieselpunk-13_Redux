@@ -219,7 +219,7 @@
 	name = "silver medal"
 	desc = "A silver medal."
 	icon_state = "silver"
-	price_tag = 500
+	price_tag = 250
 
 /obj/item/clothing/accessory/medal/silver/valor
 	name = "medal of valor"
@@ -233,7 +233,7 @@
 	name = "gold medal"
 	desc = "A prestigious golden medal."
 	icon_state = "gold"
-	price_tag = 1000
+	price_tag = 500
 
 /obj/item/clothing/accessory/medal/gold/captain
 	name = "medal of exceptional statecraft"

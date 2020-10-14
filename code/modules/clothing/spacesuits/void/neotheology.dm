@@ -2,6 +2,7 @@
 	name = "vector hood"
 	desc = "Even the most devout deserve head protection."
 	icon_state = "acolyte"
+	item_state = "acolyte"
 	armor = list(
 		melee = 25,
 		bullet = 25,
@@ -15,7 +16,9 @@
 	name = "Brother-Chaplain Armor"
 	desc = "The armor worn by "
 	icon_state = "acolyte"
+	item_state = "acolyte"
 	slowdown = 0.15
+	matter = list(MATERIAL_PLASTIC = 30, MATERIAL_STEEL = 25, MATERIAL_BIOMATTER = 40)
 	armor = list(
 		melee = 25,
 		bullet = 25,
@@ -30,6 +33,7 @@
 	name = "agrolyte hood"
 	desc = "Don't want anything getting in your eyes."
 	icon_state = "botanist"
+	item_state = "botanist"
 	armor = list(
 		melee = 25,
 		bullet = 25,
@@ -43,7 +47,9 @@
 	name = "agrolyte armor"
 	desc = "Every rose has its thorns."
 	icon_state = "botanist"
+	item_state = "botanist"
 	slowdown = 0
+	matter = list(MATERIAL_PLASTIC = 30, MATERIAL_STEEL = 15, MATERIAL_BIOMATTER = 40)
 	armor = list(
 		melee = 25,
 		bullet = 25,
@@ -58,6 +64,7 @@
 	name = "Custodian helmet"
 	desc = "Cleaning floors is more dangerous than it looks."
 	icon_state = "custodian"
+	item_state = "custodian"
 	armor = list(
 		melee = 25,
 		bullet = 25,
@@ -72,7 +79,9 @@
 	name = "Custodian armor"
 	desc = "Someone's gotta clean this mess."
 	icon_state = "custodian"
+	item_state = "custodian"
 	slowdown = 0.05
+	matter = list(MATERIAL_PLASTIC = 40, MATERIAL_STEEL = 15, MATERIAL_BIOMATTER = 40)
 	armor = list(
 		melee = 25,
 		bullet = 25,

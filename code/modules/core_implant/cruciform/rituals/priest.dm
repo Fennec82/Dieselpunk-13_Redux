@@ -340,11 +340,20 @@
 /datum/ritual/targeted/cruciform/priest/upgrade_kit
 	name = "Covenant"
 	phrase = "Dominus manum meam pro damnato in ovile redire voluerit."
-	desc = "Request an upgrade kit to formally induct a Novice into the Brotherhood"
+	desc = "Request an upgrade kit to restore a vector or prime's cruciform to its devout stage. This litany requires you to stand next to an altar."
 	power = 50
+	success_message = "On the verge of audibility you hear pleasant music, the alter slides open and a devout upgrade circuit slips out."
 
-/datum/ritual/targeted/cruciform/priest/upgrade_kit/perform(mob/living/carbon/human/user, obj/item/weapon/implant/core_implant/CI,list/targets)
-	new /obj/item/weapon/coreimplant_upgrade/cruciform/priest(usr.loc)
+/datum/ritual/targeted/cruciform/priest/upgrade_kit/perform(mob/living/carbon/human/user, obj/item/weapon/implant/core_implant/C,list/targets)
+	var/list/OBJS = get_front(user)
+
+	var/obj/machinery/optable/altar = locate(/obj/machinery/optable/altar) in OBJS
+
+	if(!altar)
+		fail("This is not your altar, the litany is useless.", user, C)
+		return FALSE
+
+	new /obj/item/weapon/coreimplant_upgrade/cruciform/priest(altar.loc)
 	set_personal_cooldown(user)
 
 /datum/ritual/cruciform/priest/initiation
@@ -533,7 +542,7 @@
 /datum/ritual/cruciform/priest/new_cruciform
 	name = "Prayer of Reunion"
 	phrase = "Ego enim scio cogitationes quas cogito super vos, ait Dominus Deus: Non est nocere consilia, ut bene sit tibi, et tu non adflictionis ut dem vobis finem et patientiam."
-	desc = "Request a new cruciform in the event someone wishes to join the fold or the one they had was lost or destroyed."
+	desc = "Request a new cruciform in the event someone wishes to join the fold or the one they had was destroyed. Requires the speaker to stand next to an altar."
 	power = 50
 	success_message = "On the verge of audibility you hear pleasant music, the alter slides open and a new cruciform slips out."
 
@@ -566,3 +575,35 @@
 		if (response == "Cancel Litany")
 			fail("You decide not to obtain a cruciform at this time.", user, C)
 			return FALSE
+
+/datum/ritual/cruciform/priest/reactivation
+	name = "Reconsecration"
+	phrase = "Vetus moritur et onus hoc levaverit"
+	desc = "The ritual needed for the reactivation and repair of a cruciform that has been unwillingly separated from the body or destroyed by the bearer's death. The process requires an altar and the cruciform in question to be attached."
+	power = 50
+
+/datum/ritual/cruciform/priest/reactivation/perform(mob/living/carbon/human/user, obj/item/weapon/implant/core_implant/C)
+	var/obj/item/weapon/implant/core_implant/cruciform/CI = get_implant_from_victim(user, /obj/item/weapon/implant/core_implant/cruciform, FALSE)
+
+	if(!CI)
+		fail("There is no cruciform on this one.", user, C)
+		return FALSE
+
+	if(!CI.wearer)
+		fail("Cruciform is not installed.", user, C)
+		return FALSE
+
+	if(CI.active)
+		fail("This cruciform is already consecrated.", user, C)
+		return FALSE
+
+	if (CI.wearer.stat == DEAD)
+		fail("The cruciform cannot be bound to a corpse.", user, C)
+		return FALSE
+
+	log_and_message_admins("successfully reconsecrated [CI.wearer]")
+	to_chat(CI.wearer, "<span class='info'>Your cruciform vibrates and warms up.</span>")
+
+	CI.activate()
+
+	return TRUE

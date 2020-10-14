@@ -19,6 +19,19 @@
 
 /obj/item/projectile/beam/weak
 	damage_types = list(BURN = 16)
+	eyeblur = 0 //we do not eyeblur
+
+/obj/item/projectile/beam/weak/pistol_35
+	damage_types = list(BURN = 12)
+
+/obj/item/projectile/beam/weak/heavy_rifle_408
+	damage_types = list(BURN = 16)
+
+/obj/item/projectile/beam/weak/magnum_40
+	damage_types = list(BURN = 20)
+
+/obj/item/projectile/beam/weak/kurtz_50
+	damage_types = list(BURN = 25)
 
 /obj/item/projectile/beam/weak/smg
 	damage_types = list(BURN = 10)
@@ -30,6 +43,10 @@
 /obj/item/projectile/beam/weak/ap
 	damage_types = list(BURN = 15)
 	armor_penetration = 20
+
+/obj/item/projectile/beam/shotgun
+	damage_types = list(BURN = 35) //Normal slugs deal 45
+	armor_penetration = 10
 
 /obj/item/projectile/beam/practice
 	name = "laser"
@@ -86,58 +103,6 @@
 	muzzle_type = /obj/effect/projectile/emitter/muzzle
 	tracer_type = /obj/effect/projectile/emitter/tracer
 	impact_type = /obj/effect/projectile/emitter/impact
-
-/obj/item/projectile/beam/lastertag/blue
-	name = "lasertag beam"
-	icon_state = "bluelaser"
-	pass_flags = PASSTABLE | PASSGLASS | PASSGRILLE
-	damage_types = list(BURN = 0)
-	no_attack_log = 1
-	check_armour = ARMOR_ENERGY
-
-	muzzle_type = /obj/effect/projectile/laser_blue/muzzle
-	tracer_type = /obj/effect/projectile/laser_blue/tracer
-	impact_type = /obj/effect/projectile/laser_blue/impact
-
-/obj/item/projectile/beam/lastertag/blue/on_hit(atom/target)
-	if(ishuman(target))
-		var/mob/living/carbon/human/M = target
-		if(istype(M.wear_suit, /obj/item/clothing/suit/fluff/redtag))
-			M.Weaken(5)
-	return 1
-
-/obj/item/projectile/beam/lastertag/red
-	name = "lasertag beam"
-	icon_state = "laser"
-	pass_flags = PASSTABLE | PASSGLASS | PASSGRILLE
-	damage_types = list(BURN = 0)
-	no_attack_log = 1
-	check_armour = ARMOR_ENERGY
-
-/obj/item/projectile/beam/lastertag/red/on_hit(atom/target)
-	if(ishuman(target))
-		var/mob/living/carbon/human/M = target
-		if(istype(M.wear_suit, /obj/item/clothing/suit/fluff/bluetag))
-			M.Weaken(5)
-	return 1
-
-/obj/item/projectile/beam/lastertag/omni//A laser tag bolt that stuns EVERYONE
-	name = "lasertag beam"
-	icon_state = "omnilaser"
-	pass_flags = PASSTABLE | PASSGLASS | PASSGRILLE
-	damage_types = list(BURN = 0)
-	check_armour = ARMOR_ENERGY
-
-	muzzle_type = /obj/effect/projectile/laser_omni/muzzle
-	tracer_type = /obj/effect/projectile/laser_omni/tracer
-	impact_type = /obj/effect/projectile/laser_omni/impact
-
-/obj/item/projectile/beam/lastertag/omni/on_hit(atom/target)
-	if(ishuman(target))
-		var/mob/living/carbon/human/M = target
-		if((istype(M.wear_suit, /obj/item/clothing/suit/fluff/bluetag))||(istype(M.wear_suit, /obj/item/clothing/suit/fluff/redtag)))
-			M.Weaken(5)
-	return 1
 
 /obj/item/projectile/beam/sniper
 	name = "sniper beam"

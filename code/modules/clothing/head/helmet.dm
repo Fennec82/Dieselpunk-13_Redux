@@ -1,6 +1,6 @@
 /obj/item/clothing/head/helmet
 	name = "helmet"
-	desc = "Standard Security gear. Protects the head from impacts."
+	desc = "Standard operator gear. Protects the head from impacts."
 	icon_state = "helmet"
 	item_state_slots = list(
 		slot_l_hand_str = "helmet",
@@ -117,7 +117,7 @@
 	cold_protection = HEAD
 	min_cold_protection_temperature = SPACE_HELMET_MIN_COLD_PROTECTION_TEMPERATURE
 	siemens_coefficient = 0.5
-	price_tag = 250
+	price_tag = 150
 
 /obj/item/clothing/head/helmet/handmade
 	name = "handmade combat helmet"
@@ -137,7 +137,7 @@
 	name = "bucket-helm"
 	desc = "A bucket with two holes for eyes and some smaller ones for ventilation, with steel added to gain some protection. One may say, <i>'Situla Vult!'</i>."
 	icon_state = "hm_greathelm"
-	armor = list(melee = 27, bullet = 29, laser = 29,energy = 27, bomb = 3, bio = 1, rad = 0) //Laser?
+	armor = list(melee = 27, bullet = 29,energy = 27, bomb = 3, bio = 1, rad = 0)
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|BLOCKHAIR
 	body_parts_covered = HEAD|FACE|EARS|EYES
 	siemens_coefficient = 0.6

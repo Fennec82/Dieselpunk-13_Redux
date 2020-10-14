@@ -132,7 +132,7 @@
 
 /mob/living/simple_animal/hostile/carp/greatwhite
 	name = "great white carp"
-	desc = "A very rare breed of carp- and a very aggressive one."
+	desc = "A very rare breed of carp and a very aggressive one."
 	icon = 'icons/mob/64x64.dmi'
 	icon_state = "megacarp"
 	icon_dead = "megacarp_dead"
@@ -198,7 +198,7 @@
 	move_to_delay = 2
 	speak_emote = list("chitters", "sharpens its claws")
 	attack_sound = 'sound/xenomorph/alien_bite1.ogg'
-	alpha = 50
+	alpha = 30
 	faction = "stalker"
 	mob_size =  3  // The same as Hivemind Tyrant
 
@@ -226,7 +226,7 @@
 /mob/living/simple_animal/hostile/retaliate/croakerlord
 	name = "croaker lord"
 	desc = "The thing the 'frogs' eventually grow into, proving beyond doubt their alien nature. While one of the strongest monsters on the planet it isn't normally hostile unless it \
-	has a reason and god help you if it finds one, their berserk rages kill everyone when its eyes open."
+	has a reason and god help you if it finds one, their berserk rages kill nearly everyone when its eyes open."
 	icon = 'icons/mob/64x64.dmi'
 	icon_state = "leaper"
 	icon_living = "leaper"
@@ -246,9 +246,11 @@
 	attack_sound = 'sound/xenomorph/alien_bite2.ogg'
 	faction = "pond"
 	mob_size =  3  // The same as Hivemind Tyrant
+	wander = 1
 
-/mob/living/simple_animal/hostile/retaliate/adjustBruteLoss(var/damage)
+/mob/living/simple_animal/hostile/retaliate/croakerlord/adjustBruteLoss(var/damage)
 	..()
+	visible_emote("slowly begins to open its many eyes as it looses an angered croak...")
 	icon_state = "leaper_alert"
 	icon_living = "leaper_alert"
 

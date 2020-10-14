@@ -61,8 +61,8 @@
 	In future, we will implement largescale missions and research contracts to earn money, and then set it
 	to a much lower starting value
 	*/
-	account_initial_balance = 2000000
-	funding_type = FUNDING_NONE
+	account_initial_balance = 20000
+	funding_type = FUNDING_EXTERNAL
 
 
 /*************
@@ -72,17 +72,20 @@
 /datum/department/ironhammer
 	name = "Nadezhda Black Guard"
 	id = DEPARTMENT_SECURITY
+	funding_type = FUNDING_EXTERNAL
 	account_initial_balance = 5000
 
 /datum/department/technomancers
 	name = "Artificier's Guild"
 	id = DEPARTMENT_ENGINEERING
+	funding_type = FUNDING_EXTERNAL
 
 /datum/department/civilian
 	name = "Nadezhda Contractors"
 	id = DEPARTMENT_CIVILIAN
 	account_budget = 0
 	account_initial_balance = 0
+	funding_type = FUNDING_EXTERNAL
 	//No standing balance is kept in the account, this is just for paying gardener, janitor and actor
 
 

@@ -7,7 +7,7 @@
 	caliber = CAL_PISTOL
 	origin_tech = list(TECH_COMBAT = 2, TECH_MATERIAL = 2)
 	matter = list(MATERIAL_PLASTEEL = 12, MATERIAL_PLASTIC = 6)
-	price_tag = 1400
+	price_tag = 700
 	fire_sound = 'sound/weapons/guns/fire/pistol_fire.ogg'
 	can_dual = 1
 	load_method = MAGAZINE
@@ -15,19 +15,25 @@
 	damage_multiplier = 1.1
 	penetration_multiplier = 0.9
 	recoil_buildup = 3
-	gun_tags = list(GUN_PROJECTILE, GUN_CALIBRE_35)
+	gun_tags = list(GUN_PROJECTILE, GUN_CALIBRE_35, GUN_SILENCABLE)
 	one_hand_penalty = 10
 
 /obj/item/weapon/gun/projectile/mk58/update_icon()
 	..()
+	var/iconstring = initial(icon_state)
+	var/itemstring = ""
 
-	if(!ammo_magazine)
-		icon_state = initial(icon_state)
-	else if(!ammo_magazine.stored_ammo.len)
-		icon_state = initial(icon_state) + "_empty"
+	if (!ammo_magazine || !length(ammo_magazine.stored_ammo))
+		iconstring += "_empty"
 	else
-		icon_state = initial(icon_state) + "_full"
+		iconstring = initial(icon_state) + "_full"
 
+	if (silenced)
+		iconstring += "_s"
+		itemstring += "_s"
+
+	icon_state = iconstring
+	set_item_state(itemstring)
 
 /obj/item/weapon/gun/projectile/mk58/wood
 	name = "\"Rose\" magnum pistol"
@@ -36,19 +42,26 @@
 	icon_state = "mk58"
 	item_state = "mk58"
 	matter = list(MATERIAL_PLASTEEL = 12, MATERIAL_WOOD = 6)
-	price_tag = 1800
+	price_tag = 900
 	mag_well = MAG_WELL_PISTOL
 	caliber = CAL_MAGNUM
 	damage_multiplier = 0.9
 	recoil_buildup = 6
-	gun_tags = list(GUN_PROJECTILE)
+	gun_tags = list(GUN_PROJECTILE, GUN_SILENCABLE)
 
 /obj/item/weapon/gun/projectile/mk58/wood/update_icon()
 	..()
+	var/iconstring = initial(icon_state)
+	var/itemstring = ""
 
-	if(!ammo_magazine)
-		icon_state = initial(icon_state)
-	else if(!ammo_magazine.stored_ammo.len)
-		icon_state = initial(icon_state) + "_empty"
+	if (!ammo_magazine || !length(ammo_magazine.stored_ammo))
+		iconstring += "_empty"
 	else
-		icon_state = initial(icon_state) + "_full"
+		iconstring = initial(icon_state) + "_full"
+
+	if (silenced)
+		iconstring += "_s"
+		itemstring += "_s"
+
+	icon_state = iconstring
+	set_item_state(itemstring)

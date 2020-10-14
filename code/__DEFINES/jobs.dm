@@ -3,7 +3,7 @@
 #define JOBS_COMMAND "Premier","Steward","Infantry Commander","Provost Marshal","Resource Officer","Guild Master","Chief Biolab Overseer","Chief Research Overseer","Prime"
 #define JOBS_ENGINEERING "Guild Master","Guild Adept"
 #define JOBS_MEDICAL "Biolab Overseer","Medical Doctor","Psychiatrist","Chemist","Paramedic"
-#define JOBS_SCIENCE "Chief Research Overseer","Scientist","Roboticist"
+#define JOBS_SCIENCE "Research Overseer","Scientist","Roboticist"
 #define JOBS_CARGO "Resource Officer","Warehouse Technician","Drill Technician","Bartender","Chef","Gardener","Janitor","Manager","Foreman","Salvager","Prospector"
 #define JOBS_CIVILIAN "Colonist"
 #define JOBS_CHURCH "Confessor", "Brother-Knight", "Brother-Sergeant", "Brother-Corporal", "Chaplain"

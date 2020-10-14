@@ -63,7 +63,7 @@
 	gas_transfer_coefficient = 0.01
 	permeability_coefficient = 0.01
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
-	armor = list(melee = 100, bullet = 100, laser = 100,energy = 100, bomb = 100, bio = 100, rad = 100)
+	armor = list(melee = 100, bullet = 100, energy = 100, bomb = 100, bio = 100, rad = 100)
 	cold_protection = UPPER_TORSO | LOWER_TORSO | LEGS | ARMS
 	min_cold_protection_temperature = SPACE_SUIT_MIN_COLD_PROTECTION_TEMPERATURE
 	siemens_coefficient = 0
@@ -110,7 +110,7 @@
 	icon_state = "serbiansuit"
 	item_state = "bl_suit"
 	has_sensor = 0
-	price_tag = 200
+	price_tag = 100
 
 /obj/item/clothing/under/serbiansuit/brown
 	name = "brown battle dress"
@@ -217,6 +217,24 @@
 	desc = "A durable, baggy grey uniform sporting research and development patches, and antiseptic coating."
 	icon_state = "gorka_crew_sci"
 	item_state = "gorka_crew_sci"
+
+obj/item/clothing/under/genericb
+	name = "blue generic outfit"
+	desc = "A simple blue shirt with brown pants."
+	icon_state = "genericb"
+	item_state = "genericb"
+
+obj/item/clothing/under/genericw
+	name = "white generic outfit"
+	desc = "A simple white shirt with grey pants."
+	icon_state = "genericw"
+	item_state = "genericw"
+
+obj/item/clothing/under/genericr
+	name = "red generic outfit"
+	desc = "A simple red shirt with black pants."
+	icon_state = "genericr"
+	item_state = "genericr"
 
 //Excelsior
 /obj/item/clothing/under/excelsior

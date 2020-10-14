@@ -532,7 +532,9 @@
 	name = "\improper Courtroom"
 	icon_state = "courtroom"
 
-
+/area/nadezhda/command/crematorium
+	name = "\improper Crematorium"
+	icon_state = "erisyellow"
 
 //Crew Quarters
 
@@ -761,6 +763,7 @@
 	name = "\improper Garden"
 	icon_state = "garden"
 	dynamic_lighting = FALSE
+	forced_ambience = list('sound/ambience/meadowamb1.ogg', 'sound/ambience/meadowamb2.ogg', 'sound/ambience/meadowamb3.ogg', 'sound/ambience/meadowamb4.ogg')
 
 /area/nadezhda/crew_quarters/clothingstorage
 	name = "Clothing Storage"

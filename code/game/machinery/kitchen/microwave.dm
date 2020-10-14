@@ -6,7 +6,7 @@
 	layer = BELOW_OBJ_LAYER
 	density = 1
 	anchored = 1
-	use_power = 1
+	use_power = IDLE_POWER_USE
 	idle_power_usage = 5
 	active_power_usage = 100
 	reagent_flags = OPENCONTAINER | NO_REACT
@@ -106,7 +106,7 @@
 		return
 
 	else if(src.dirty==100) // The microwave is all dirty so can't be used!
-		if(istype(I, /obj/item/weapon/reagent_containers/spray/cleaner)) // If they're trying to clean it then let them
+		if(istype(I, /obj/item/weapon/reagent_containers/spray  || /obj/item/weapon/reagent_containers/glass/rag || /obj/item/weapon/soap)) // If they're trying to clean it then let them
 			user.visible_message( \
 				SPAN_NOTICE("\The [user] starts to clean the microwave."), \
 				SPAN_NOTICE("You start to clean the microwave.") \

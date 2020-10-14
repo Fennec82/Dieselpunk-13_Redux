@@ -12,10 +12,10 @@
 	load_method = MAGAZINE
 	mag_well = MAG_WELL_SMG|MAG_WELL_H_PISTOL
 	matter = list(MATERIAL_PLASTEEL = 16, MATERIAL_PLASTIC = 4)
-	price_tag = 2000
+	price_tag = 1000
 	damage_multiplier = 0.9
 	recoil_buildup = 5
-	gun_tags = list(GUN_PROJECTILE,GUN_SILENCABLE)
+	gun_tags = list(GUN_PROJECTILE,GUN_SILENCABLE, GUN_CALIBRE_35)
 	one_hand_penalty = 5 //smg level
 
 	init_firemodes = list(
@@ -35,6 +35,10 @@
 
 	if (!ammo_magazine || !length(ammo_magazine.stored_ammo))
 		iconstring += "_slide"
+
+	if (silenced)
+		iconstring += "_s"
+		itemstring += "_s"
 
 	icon_state = iconstring
 	set_item_state(itemstring)
@@ -58,10 +62,10 @@
 	load_method = MAGAZINE
 	mag_well = MAG_WELL_SMG|MAG_WELL_H_PISTOL
 	matter = list(MATERIAL_PLASTEEL = 16, MATERIAL_PLASTIC = 4)
-	price_tag = 2000
+	price_tag = 1000
 	damage_multiplier = 0.75
 	recoil_buildup = 2
-	gun_tags = list(GUN_PROJECTILE)
+	gun_tags = list(GUN_PROJECTILE, GUN_CALIBRE_35)
 	one_hand_penalty = 5 //smg level
 	fire_sound = 'sound/weapons/guns/fire/m41_shoot.ogg'
 

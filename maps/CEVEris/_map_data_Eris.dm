@@ -4,10 +4,11 @@
 #include "_Nadezhda_Colony_Underground.dmm"
 #include "_Nadezhda_Colony_Transition.dmm"
 #include "_Nadezhda_Colony_Surface.dmm"
+//#include "_Nadezhda_Solar_Area.dmm"
 #include "../encounters/deepforest/deepforest.dm"
 #include "../encounters/spacefortress/spacefortress.dm"
 #include "centcomm.dmm"
-#include "Nadezhda_Colony_Rec.dmm"
+
 
 /obj/map_data/eris
 	name = "Eris"
@@ -55,4 +56,13 @@
 	is_admin_level = TRUE
 	is_accessable_level = FALSE
 	height = 1
-
+/*
+/obj/map_data/nadezda_solars
+	name = "Nadezhda Mountain Solars"
+	is_station_level = FALSE
+	is_player_level = TRUE
+	is_contact_level = FALSE
+	is_accessable_level = FALSE
+	is_sealed = TRUE
+	height = 1
+*/

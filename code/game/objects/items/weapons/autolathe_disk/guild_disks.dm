@@ -1,11 +1,12 @@
-
+// Disks formated as /designpath = pointcost , if no point cost is specified it defaults to 1.
+// To make a design unprotect use -1
 // Technomancers
 /obj/item/weapon/computer_hardware/hard_drive/portable/design/components
 	disk_name = "Artificer's ARK-034 Components"
 	icon_state = "technomancers"
 	license = 20
 	designs = list(
-		/datum/design/autolathe/part/consolescreen,
+		/datum/design/autolathe/part/consolescreen = 0,
 		/datum/design/research/item/part/smes_coil,
 		/datum/design/research/item/part/basic_capacitor,
 		/datum/design/research/item/part/basic_sensor,
@@ -74,6 +75,12 @@
 		/datum/design/autolathe/part/expansion,
 		/datum/design/autolathe/part/spikes,
 		/datum/design/autolathe/part/dampener,
+		/datum/design/research/item/weapon/toolmod/antistaining,
+		/datum/design/research/item/weapon/toolmod/vibcompensator,
+		/datum/design/research/item/weapon/toolmod/compensatedbarrel,
+		/datum/design/research/item/weapon/toolmod/hydraulic,
+		/datum/design/research/item/weapon/toolmod/injector,
+		/datum/design/research/item/weapon/toolmod/plasmablock,
 	)
 
 /obj/item/weapon/computer_hardware/hard_drive/portable/design/circuits
@@ -81,13 +88,12 @@
 	icon_state = "technomancers"
 	license = 10
 	designs = list(
-		/datum/design/autolathe/circuit/airlockmodule,
-		/datum/design/autolathe/circuit/airalarm,
-		/datum/design/autolathe/circuit/firealarm,
-		/datum/design/autolathe/circuit/powermodule,
+		/datum/design/autolathe/circuit/airlockmodule = 0,
+		/datum/design/autolathe/circuit/airalarm = 0,
+		/datum/design/autolathe/circuit/firealarm = 0,
+		/datum/design/autolathe/circuit/powermodule = 0,
 		/datum/design/autolathe/circuit/recharger,
 		/datum/design/research/circuit/autolathe,
-		/datum/design/autolathe/circuit/autolathe_disk_cloner,
 		/datum/design/autolathe/circuit/vending,
 		/datum/design/research/circuit/arcade_battle,
 		/datum/design/research/circuit/arcade_orion_trail,
@@ -98,16 +104,20 @@
 		/datum/design/autolathe/circuit/centrifuge,
 		/datum/design/autolathe/circuit/electrolyzer,
 		/datum/design/autolathe/circuit/reagentgrinder,
+		/datum/design/research/circuit/pacman = 2,
+		/datum/design/research/circuit/diesel = 3,
 	)
 
-/obj/item/weapon/computer_hardware/hard_drive/portable/design/conveyors
-	disk_name = "Artificer's LAT-018 Conveyors"
+/obj/item/weapon/computer_hardware/hard_drive/portable/design/logistics
+	disk_name = "Artificer's LAT-018 Logistics"
 	icon_state = "technomancers"
 
-	license = -1
+	license = 3
 	designs = list(
-		/datum/design/autolathe/conveyor,
-		/datum/design/autolathe/conveyor_switch
+		/datum/design/autolathe/conveyor = 0,
+		/datum/design/autolathe/conveyor_switch = 0,
+		/datum/design/autolathe/circuit/smelter = 3,
+		/datum/design/autolathe/circuit/sorter
 	)
 
 /obj/item/weapon/computer_hardware/hard_drive/portable/design/engineering
@@ -151,7 +161,6 @@
 		/datum/design/autolathe/circuit/powermodule,
 		/datum/design/autolathe/circuit/recharger,
 		/datum/design/research/circuit/autolathe,
-		/datum/design/autolathe/circuit/autolathe_disk_cloner,
 		/datum/design/autolathe/circuit/vending,
 		/datum/design/research/circuit/arcade_battle,
 		/datum/design/research/circuit/arcade_orion_trail,
@@ -182,5 +191,39 @@
 		/datum/design/autolathe/part/expansion,
 		/datum/design/autolathe/part/spikes,
 		/datum/design/autolathe/part/dampener,
+		/datum/design/research/item/weapon/toolmod/antistaining,
+		/datum/design/research/item/weapon/toolmod/vibcompensator,
+		/datum/design/research/item/weapon/toolmod/compensatedbarrel,
+		/datum/design/research/item/weapon/toolmod/hydraulic,
+		/datum/design/research/item/weapon/toolmod/injector,
+		/datum/design/research/item/weapon/toolmod/plasmablock,
 		)
 
+/obj/item/weapon/computer_hardware/hard_drive/portable/design/powerwork
+	disk_name = "Artificer's KW-841 Power Setters"
+	icon_state = "technomancers"
+
+	license = 20
+	designs = list(
+	/datum/design/research/circuit/powermonitor,
+	/datum/design/research/circuit/solarcontrol,
+	/datum/design/research/circuit/miss = 3,
+	/datum/design/research/circuit/superpacman = 2,
+	/datum/design/research/circuit/mrspacman = 2,
+	/datum/design/research/circuit/camp,
+	/datum/design/research/circuit/pacman,
+	/datum/design/research/circuit/diesel,
+	/datum/design/research/circuit/pacman/scrap = 0,
+	/datum/design/research/structure/solar,
+	/datum/design/research/circuit/smes_cell,
+	/datum/design/research/circuit/batteryrack,
+	/datum/design/research/circuit/breakerbox,
+	/datum/design/research/item/part/smes_coil,
+	/datum/design/research/item/part/smes_coil/weak = 0,
+	/datum/design/research/item/part/smes_coil/super_io = 2,
+	/datum/design/research/item/part/smes_coil/super_capacity = 2,
+	)
+
+/obj/item/weapon/computer_hardware/hard_drive/portable/design/powerwork/factory
+	disk_name = "Artificer's MW-841 Power Setters"
+	license = -1

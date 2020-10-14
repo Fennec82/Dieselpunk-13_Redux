@@ -55,7 +55,6 @@
 	name = "Mechanical muscles"
 	build_path = /obj/item/organ_module/muscle
 
-
 /datum/design/research/item/mechfab/modules/multitool/surgical
 	build_path = /obj/item/organ_module/active/simple/surgical
 	name = "Embedded surgical multitool"
@@ -86,3 +85,21 @@
 /datum/design/research/item/implant/alarm
 	name = "death alarm"
 	build_path = /obj/item/weapon/implantcase/death_alarm
+
+/datum/design/research/item/mechfab/modules/hud
+
+/datum/design/research/item/mechfab/modules/hud/med
+	build_path = /obj/item/organ_module/active/hud/med
+	name = "Embedded Med Hud Shades"
+
+/datum/design/research/item/mechfab/modules/hud/sec
+	build_path = /obj/item/organ_module/active/hud/sec
+	name = "Embeded Security Hud Shades"
+
+/datum/design/research/item/mechfab/modules/hud/night
+	build_path = /obj/item/organ_module/active/hud/night
+	name = "Embedded Night Vision Shades"
+
+/datum/design/research/item/mechfab/modules/hud/thermal
+	build_path = /obj/item/organ_module/active/hud/thermal
+	name = "Embedded Thermal Shades"

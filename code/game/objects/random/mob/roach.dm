@@ -209,12 +209,11 @@
 	alpha = 128
 
 /obj/random/mob/undergroundmob/item_to_spawn()
-	return pickweight(list(
-		/mob/living/simple_animal/hostile/samak = 1,
-		/mob/living/simple_animal/hostile/bear = 2,
+	return pickweight(list(/mob/living/simple_animal/hostile/wurm = 2,
+		/mob/living/simple_animal/hostile/wurm/adult = 1,
+		/mob/living/simple_animal/hostile/sargoyle = 2,
 		/mob/living/simple_animal/hostile/helldiver = 1,
 		))
-
 
 /obj/random/mob/undergroundmob/low_chance
 	name = "low chance random underground mob"

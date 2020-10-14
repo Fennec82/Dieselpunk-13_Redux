@@ -302,7 +302,9 @@
 // Also make sure there is a valid control computer
 /obj/machinery/cryopod/proc/despawn_occupant()
 	var/mob/living/carbon/human/H = occupant
-	var/list/occupant_organs = H.organs | H.internal_organs
+	var/list/occupant_organs
+	if(istype(H))
+		occupant_organs = H.organs | H.internal_organs
 
 	//Drop all items into the pod.
 	for(var/obj/item/W in occupant)
@@ -480,6 +482,10 @@
 	set name = "Eject Pod"
 	set category = "Object"
 	set src in oview(1)
+	if(!usr) //when called from preferences_spawnpoints.dm there is no usr since it is called indirectly. If there is no occupant and usr something really bad has happened here so just keep them in the pod - Hopek
+		if(!occupant)
+			return
+		usr = occupant
 	if(usr.stat != 0)
 		return
 

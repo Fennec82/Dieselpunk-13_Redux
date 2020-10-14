@@ -42,7 +42,7 @@
 	//Variables used for tool degradation
 	var/degradation = 0.8 //If nonzero, the health of the tool decreases by this amount after each tool operation
 	health = 0		// Health of a tool.
-	max_health = 1000
+	max_health = 500
 	var/health_threshold  = 40 // threshold in percent on which tool health stops dropping
 	var/lastNearBreakMessage = 0 // used to show messages that tool is about to break
 	var/isBroken = FALSE
@@ -50,9 +50,9 @@
 
 	var/toggleable = FALSE	//Determines if it can be switched ON or OFF, for example, if you need a tool that will consume power/fuel upon turning it ON only. Such as welder.
 	var/switched_on = FALSE	//Curent status of tool. Dont edit this in subtypes vars, its for procs only.
-	var/switched_on_qualities = null	//This var will REPLACE tool_qualities when tool will be toggled on.
+	var/switched_on_qualities = list()	//This var will REPLACE tool_qualities when tool will be toggled on.
 	var/switched_on_force = null
-	var/switched_off_qualities = null	//This var will REPLACE tool_qualities when tool will be toggled off. So its possible for tool to have diferent qualities both for ON and OFF state.
+	var/switched_off_qualities = list()	//This var will REPLACE tool_qualities when tool will be toggled off. So its possible for tool to have diferent qualities both for ON and OFF state.
 	var/create_hot_spot = FALSE	 //Set this TRUE to ignite plasma on turf with tool upon activation
 	var/glow_color = null	//Set color of glow upon activation, or leave it null if you dont want any light
 	var/last_tooluse = 0 //When the tool was last used for a tool operation. This is set both at the start of an operation, and after the doafter call
@@ -639,23 +639,21 @@
 
 //We are cheking if our item got required qualities. If we require several qualities, and item posses more than one of those, we ask user to choose how that item should be used
 /obj/item/proc/get_tool_type(mob/living/user, list/required_qualities, atom/use_on, datum/callback/CB)
-	var/list/L = required_qualities & tool_qualities
-
-	if(!L.len)
-		return FALSE
-
-	var/return_quality
-	if(L.len > 1)
-		for(var/i in L)
-			L[i] = image(icon = 'icons/mob/radial/tools.dmi', icon_state = i)
-		return_quality = show_radial_menu(user, use_on ? use_on : user, L, tooltips = TRUE, require_near = TRUE, custom_check = CB)
-	else
-		return_quality = L[1]
-
-	if(!return_quality)
+	if(!tool_qualities) //This is not a tool, or does not have tool qualities
 		return
 
-	return return_quality
+	var/list/L = required_qualities & tool_qualities
+
+	if(!(L.len))	//If the tool has none of the required qualities, the list is empty and thus we exit out of the proc
+		return
+
+	if(L.len == 1)
+		return L[1]
+
+	for(var/i in L)
+		L[i] = image(icon = 'icons/mob/radial/tools.dmi', icon_state = i)
+	return show_radial_menu(user, use_on ? use_on : user, L, tooltips = TRUE, require_near = TRUE, custom_check = CB)
+
 
 /obj/item/weapon/tool/proc/turn_on(var/mob/user)
 	if(use_power_cost)
@@ -708,7 +706,15 @@
 	if (timespent < 5)
 		timespent = 5
 
-	if(use_power_cost)
+	if(use_power_cost && isrobot(user))
+		var/mob/living/silicon/robot/R = user
+		if(R.cell)
+			var/cost = use_power_cost
+			if(R.cell.charge >= cost)
+				R.cell.use(cost)
+			return 1
+
+	if(use_power_cost &! isrobot(user))
 		if (!cell?.checked_use(use_power_cost*timespent))
 			to_chat(user, SPAN_WARNING("[src] battery is dead or missing."))
 			return FALSE

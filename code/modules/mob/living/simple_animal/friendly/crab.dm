@@ -54,6 +54,25 @@
 	response_harm   = "stomps"
 	mob_size = 3
 	faction = "pond"
+	density = 0
+	wander = 1
+
+/mob/living/simple_animal/hostile/ratking
+	name = "rat king"
+	icon = 'icons/mob/mobs-mouse.dmi'
+	icon_state = "rat_king"
+	icon_dead = "mouse_brown_splat"
+	icon_rest = "mouse_brown_sleep"
+	desc = "The rat king cordially invites you to the sewer for a tasteful dining experience. Do you accept with gratitude or with enthusiasm?"
+	response_help  = "pets"
+	response_disarm = "gently pushes aside"
+	response_harm   = "kicks"
+	faction = "neutral"
+	maxHealth = 120
+	health = 120
+	melee_damage_upper = 20
+	melee_damage_lower = 15
+	meat_amount = 3
 
 /mob/living/simple_animal/frog/rare
 	name = "Pepe"
@@ -84,3 +103,4 @@
 	response_harm   = "stomps"
 	mob_size = 3
 	faction = "pond"
+	density = 0

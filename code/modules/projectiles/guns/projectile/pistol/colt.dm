@@ -7,14 +7,14 @@
 	caliber = CAL_PISTOL
 	origin_tech = list(TECH_COMBAT = 2, TECH_MATERIAL = 2)
 	matter = list(MATERIAL_PLASTEEL = 12, MATERIAL_WOOD = 5)
-	price_tag = 900
+	price_tag = 450
 	fire_sound = 'sound/weapons/guns/fire/pistol_fire.ogg'
 	can_dual = 1
 	load_method = MAGAZINE
 	mag_well = MAG_WELL_PISTOL
 	damage_multiplier = 1.2
 	recoil_buildup = 17
-	gun_tags = list(GUN_PROJECTILE, GUN_CALIBRE_35)
+	gun_tags = list(GUN_PROJECTILE, GUN_CALIBRE_35, GUN_SILENCABLE)
 	one_hand_penalty = 20
 
 /obj/item/weapon/gun/projectile/colt/NM_colt
@@ -40,7 +40,7 @@
 	load_method = MAGAZINE
 	mag_well = MAG_WELL_PISTOL
 	matter = list(MATERIAL_PLASTEEL = 18, MATERIAL_PLASTIC = 8)
-	price_tag = 2000
+	price_tag = 1000
 	fire_sound = 'sound/weapons/guns/fire/hpistol_fire.ogg'
 	load_method = MAGAZINE
 	mag_well = MAG_WELL_PISTOL
@@ -60,11 +60,17 @@
 	..()
 
 	var/iconstring = initial(icon_state)
+	var/itemstring = ""
 
 	if (!ammo_magazine || !length(ammo_magazine.stored_ammo))
 		iconstring += "_slide"
 
+	if (silenced)
+		iconstring += "_s"
+		itemstring += "_s"
+
 	icon_state = iconstring
+	set_item_state(itemstring)
 
 /obj/item/weapon/gun/projectile/colt/Initialize()
 	. = ..()

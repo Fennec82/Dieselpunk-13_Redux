@@ -520,6 +520,12 @@
 	desc = "Research Console"
 	region = ACCESS_REGION_RESEARCH
 
+/var/const/access_military = 111 //for blackshields
+/datum/access/military
+	id = access_military
+	desc = "Military"
+	region = ACCESS_REGION_SECURITY
+
 
 /***************
 * Antag access *
