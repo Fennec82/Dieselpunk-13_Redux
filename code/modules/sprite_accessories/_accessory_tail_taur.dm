@@ -180,3 +180,46 @@
 	clip_mask_icon = null
 	clip_mask_state = null
 	colored_layers = 2
+
+//Woe, Chompstation ports be upon yee
+
+/datum/sprite_accessory/tail/taur/wolf/chubby_wolf
+	name = "Fat Wolf (Taur)"
+	icon_state = "fatwolfalt_s"
+	colored_layers = 3
+
+/datum/sprite_accessory/tail/taur/chubby_naga
+	name = "Fat Naga (Taur)"
+	icon_state = "fatnaga_s"
+	colored_layers = 2
+
+/datum/sprite_accessory/tail/taur/fox
+	name = "Fox (Taur)"
+	icon_state = "fox_s"
+	colored_layers = 3
+
+/datum/sprite_accessory/tail/taur/kitsune
+	name = "Kitsune (Taur)"
+	icon_state = "kitsune"
+	colored_layers = 1
+
+/datum/sprite_accessory/tail/taur/big_drake
+	name = "Big Drake (Taur)"
+	icon_state = "extended_fatdrake_s"
+	colored_layers = 3
+
+/datum/sprite_accessory/tail/taur/orca
+	name = "Orca (Taur)"
+	icon_state = "orcamermaid_s"
+
+/datum/sprite_accessory/tail/taur/zorzor
+	name = "Zorgoia (Taur)"
+	icon_state = "zorgoia_s"
+	colored_layers = 2
+
+/datum/sprite_accessory/tail/taur/chubby_zorzor
+	name = "Fat Zorgoia (Taur)"
+	icon_state = "zorgoia_fat_s"
+	colored_layers = 2
+
+//Chomp ports end
