@@ -670,6 +670,7 @@ datum/sprite_accessory/tail/crossfox
 	extra_overlay_w = "buggofatfirefly_vass_markings"
 
 //Woe, Chompstation pors be upon yee
+
 /datum/sprite_accessory/tail/zorzor
 	name = "Zorgoia"
 	desc = ""
