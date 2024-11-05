@@ -409,3 +409,28 @@
 	icon_state = "big_liz"
 	colored_layers = 1
 	blend = ICON_MULTIPLY
+
+//Woe, Chompstation ports be upon yee
+
+/datum/sprite_accessory/ears/cobra_hood
+	name = "Cobra Hood"
+	desc = ""
+	icon_state = "cobra_hood"
+	colored_layers = 2
+	blend = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/four_ears
+	name = "Four Ears"
+	desc = ""
+	icon_state = "fourears"
+	colored_layers = 1
+	blend = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/zorzor
+	name = "Zorgoia"
+	desc = ""
+	icon_state = "zorgoia"
+	colored_layers = 1
+	blend = ICON_MULTIPLY
+
+//Chomp ports end

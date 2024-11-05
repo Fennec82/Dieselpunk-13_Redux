@@ -668,3 +668,15 @@ datum/sprite_accessory/tail/crossfox
 	blend = ICON_MULTIPLY
 	extra_overlay = "buggofirefly_vass_markings"
 	extra_overlay_w = "buggofatfirefly_vass_markings"
+
+//Woe, Chompstation pors be upon yee
+
+/datum/sprite_accessory/tail/zorzor
+	name = "Zorgoia"
+	desc = ""
+	icon_state = "zorgoia_s"
+	ani_state = "zorgoia_s"
+	colored_layers = 3
+	blend = ICON_MULTIPLY
+
+//Chomp ports end
