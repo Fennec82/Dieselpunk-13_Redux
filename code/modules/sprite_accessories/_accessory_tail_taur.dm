@@ -106,7 +106,6 @@
 	name = "Lizard Extra Long Tail "
 	icon_state = "roiz_tail_s"
 	colored_layers = 0
-	ckeys_allowed = list("spoopylizz")
 
 /datum/sprite_accessory/tail/taur/naga
 	name = "Naga (Taur)"
