@@ -60,7 +60,7 @@
 	)
 
 /datum/job/offduty_medical
-	title = "Off-duty Soteria"
+	title = "Off-duty MedSci"
 	latejoin_only = TRUE
 	timeoff_factor = -1
 	total_positions = -1
