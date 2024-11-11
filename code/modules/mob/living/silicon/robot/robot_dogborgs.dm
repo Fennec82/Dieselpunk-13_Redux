@@ -1,5 +1,5 @@
 /obj/item/weapon/robot_module/robot/knine
-	name = "Security K9 Module"
+	name = "Enforcer K9 Module"
 	sprites = list(
 					"K9 Hound" = "k9",
 					"V2 K9 Hound" = "ihsechound",
@@ -19,7 +19,7 @@
 		STAT_COG = 25
 	)
 
-	desc = "Focused on keeping the peace and fighting off threats to the colony, the IH K9 Module is a \
+	desc = "Focused on keeping the peace and fighting off threats to the city, the enforcer K9 Module is a \
 	heavily armored, though lightly armed battle unit."
 
 /obj/item/weapon/robot_module/robot/knine/New(var/mob/living/silicon/robot/R)
@@ -56,7 +56,7 @@
 	..()
 
 /obj/item/weapon/robot_module/robot/medihound
-	name = "Soteria Medihound Module"
+	name = "State Research Academy Medihound Module"
 	sprites = list(
 					"Medical Hound" = "medihound",
 					"Dark Medical Hound (Static)" = "medihounddark",
@@ -76,7 +76,7 @@
 	)
 
 	desc = "A versatile medical hound, equipped with all the tools necessary for surgery, chemistry, and \
-	 general patient treatments. Medihound has a vast array of items, but this comes at a hefty cost. \
+	 general patient treatments. The Medihound has a vast array of items, but this comes at a hefty cost. \
 	 The medihound is essentially shackled to the medbay and can't afford to stray too far. \
 	 Its low power efficiency means it needs to charge regularly"
 
@@ -211,7 +211,7 @@
 	..()
 
 /obj/item/weapon/robot_module/robot/science
-	name = "Soteria Science Hound Module"
+	name = "State Research Academy Science Hound Module"
 	sprites = list(
 					"Research Hound" = "science",
 					)
@@ -272,7 +272,7 @@
 	..()
 
 /obj/item/weapon/robot_module/robot/engiedog
-	name = "Artificer Hound Module"
+	name = "Guild Engihound Module"
 	sprites = list(
 					"V2 Engihound" = "thottbot",
 					"Pupdozer" = "pupdozer",
@@ -286,7 +286,7 @@
 	speed_factor = 1.4 //Slightly above average
 	power_efficiency = 1 //Slightly below average
 
-	desc = "The engineering module is designed for setting up and maintaining core colony systems, \
+	desc = "The Guild engineering module is designed for setting up and maintaining core city systems, \
 	as well as occasional repair work here and there. It's a good all rounder that can serve most \
 	engineering tasks."
 

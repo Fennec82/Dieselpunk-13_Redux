@@ -9,10 +9,10 @@ var/global/list/robot_modules = list(
 	"Engineering"				= /obj/item/weapon/robot_module/engineering/general,
 	"Construction"				= /obj/item/weapon/robot_module/engineering/construction,
 	"Custodial" 				= /obj/item/weapon/robot_module/custodial,
-	"Soteria Medihound"			= /obj/item/weapon/robot_module/robot/medihound,
-	"Security K9 Unit"			= /obj/item/weapon/robot_module/robot/knine,
+	"State Research Academy Medihound"			= /obj/item/weapon/robot_module/robot/medihound,
+	"Provost K9 Unit"			= /obj/item/weapon/robot_module/robot/knine,
 	"Custodial Hound"			= /obj/item/weapon/robot_module/robot/scrubpup,
-	"Soteria Scihound"			= /obj/item/weapon/robot_module/robot/science,
+	"State Research Academy Scihound"			= /obj/item/weapon/robot_module/robot/science,
 	"Guild Engihound"			= /obj/item/weapon/robot_module/robot/engiedog,
 	//"Combat" 					= /obj/item/weapon/robot_module/combat,
 	)
