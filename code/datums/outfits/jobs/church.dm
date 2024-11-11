@@ -17,7 +17,7 @@
 	suit = /obj/item/clothing/suit/storage/chaplain
 	shoes = /obj/item/clothing/shoes/reinforced
 	gloves = /obj/item/clothing/gloves/thick
-	backpack_contents = list(/obj/item/weapon/book/ritual/cruciform/priest = 1)
+	backpack_contents = list(/obj/item/weapon/book/ritual/cruciform/priest = 1, /obj/item/weapon/storage/box/flashbangs = 1)
 
 /decl/hierarchy/outfit/job/church/broknight
 	name = OUTFIT_JOB_NAME("Hospitaller - Brother-Knight")
@@ -27,7 +27,7 @@
 	suit = /obj/item/clothing/suit/space/void/knight
 	shoes = /obj/item/clothing/shoes/jackboots
 	gloves = /obj/item/clothing/gloves/thick
-	backpack_contents = list(/obj/item/weapon/book/ritual/cruciform/priest = 1)
+	backpack_contents = list(/obj/item/weapon/book/ritual/cruciform/priest = 1, /obj/item/weapon/storage/box/flashbangs = 1)
 
 /decl/hierarchy/outfit/job/church/brosarge
 	name = OUTFIT_JOB_NAME("Hospitaller - Brother-Sergeant")
@@ -37,7 +37,7 @@
 	suit = /obj/item/clothing/suit/space/void/medarmor/sarge
 	shoes = /obj/item/clothing/shoes/jackboots
 	gloves = /obj/item/clothing/gloves/thick
-	backpack_contents = list(/obj/item/weapon/book/ritual/cruciform/priest = 1)
+	backpack_contents = list(/obj/item/weapon/book/ritual/cruciform/priest = 1, /obj/item/weapon/storage/box/flashbangs = 1)
 
 /decl/hierarchy/outfit/job/church/brocorp
 	name = OUTFIT_JOB_NAME("Hospitaller - Brother-Corporal")
