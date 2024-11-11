@@ -69,6 +69,7 @@
 	selection_color = "#a8b69a"
 	wage = WAGE_PROFESSIONAL
 	minimum_character_age = 25
+	alt_titles = list("Emergency Physician", "Surgeon", "Field Surgeon", "Chemist", "Pharmacist", "Virologist")
 
 	outfit_type = /decl/hierarchy/outfit/job/medical/doctor
 
@@ -90,7 +91,7 @@
 
 	description = "The Medical Doctor is a professional medic and surgeon dedicated to healing the sick and injured, at all costs.<br>\
 	A broad range of medical procedures fall under your purview - diagnostics, general treatment, surgery, and virology.<br>\
-	You are not expected to be an expert in all: specialising in an area is fine. Divide tasks amongst colleagues, with CBO guidance.<br>\
+	You are not expected to be an expert in all: specialising in an area is fine. Divide tasks amongst colleagues, with the guidance of the surgeon general.<br>\
 	Remember that chemistry has a dedicated specialist. Avoid this department unless it is notably short-staffed.<br>\
 	Due to the nature of your work, you may find yourself confined to the department for the shift majority. Don't abandon patients."
 
@@ -134,14 +135,14 @@
 	software_on_spawn = list(/datum/computer_file/program/chem_catalog,
 							/datum/computer_file/program/scanner)
 
-	description = "The Orderly is not a man of science nor medicine, they are strictly in charge of enforcing the chief biolabs orders and sometimes the chief research overseer's orders.<br>\
+	description = "The Orderly is not a man of science nor medicine, they are strictly in charge of enforcing the surgeon general orders and sometimes the chief research overseer's orders.<br>\
 	Your primary role is that of a thug for medical. You make sure that medical remains safe by ensuring people don't trespass or steal items and remove those who shouldn't be there, by force if necessary.<br>\
 	Your secondary responsibility is that of an enforcer. Actions that require in house enforcement such as aiding doctors and security with violent patients in medical, securing the virology lab during an outbreak, and aiding in the destruction of escape slimes or kudzu from science.<br>\
 	Your third duty is to aid medical doctors and paramedics in fixing patients, this can include retrieving chemicals, doing basic triage, and accompanying paramedics to aid them in getting injured patients.<br>\
-	You are fully licensed to sell any and all chemicals to all colonists. If someone isn't an employee of the Nadezhda State Research Academy, charge them for their chemicals.<br>\
+	You are fully licensed to sell any and all chemicals to all citizens. If someone isn't an employee of the Nadezhda State Research Academy, charge them for their chemicals.<br>\
 	It's worth noting that you function heavily as a nurse when not acting as muscle and treatment of patients should be priority, in particular when assisting doctors."
 
-	duties = "Act as a guard for medical, ensuring unneeded colonist leave and nothing is stolen.<br>\
+	duties = "Act as a guard for medical, ensuring unneeded citizen leave and nothing is stolen.<br>\
 		Aid medical doctors and paramedics in any way you can.<br>\
 		Act as a nurse for minor injuries, treating patients that a doctor needn't bother with.<br>\
 		Ensure that any outbreaks are contained, such as slimes, infected monkies, or kudzu."
@@ -182,9 +183,9 @@
 							/datum/computer_file/program/chem_catalog,
 							/datum/computer_file/program/camera_monitor)
 
-	description = "The Psychiatrist is a mental specialist that works to help colonists through their various issues and concerns.<br>\
+	description = "The Psychiatrist is a mental specialist that works to help citizens through their various issues and concerns.<br>\
 	In some ways you are a professional conversationalist. Despite knowing advanced therapy techniques, sometimes a mere chat can work wonders.<br>\
-	More eventful days may involve you having particularly unstable colonists sectioned, or interviewing criminals in coordination with Security.<br>\
+	More eventful days may involve you having particularly unstable citizens sectioned, or interviewing criminals in coordination with Security.<br>\
 	Remember that patient confidentiality is highly important in your profession. Keep sensitive information between you and the patient."
 
 	duties = "Speak with anyone who desires help, no matter their rank or relation.<br>\

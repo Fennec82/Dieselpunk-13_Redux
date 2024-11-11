@@ -27,7 +27,7 @@
 	backpack_contents = list(/obj/item/weapon/handcuffs = 1,/obj/item/ammo_magazine/kurtz_50/rubber = 2,/obj/item/device/lighting/toggleable/flashlight/seclite = 1, /obj/item/weapon/cell/small/high = 2, /obj/item/weapon/gun/energy/gun/martin = 1, /obj/item/weapon/storage/firstaid/combat = 1)
 
 /decl/hierarchy/outfit/job/security/smc
-	name = OUTFIT_JOB_NAME("Blackshield - Blackshield Commander")
+	name = OUTFIT_JOB_NAME("Black Guard- Infantry Commander")
 	l_ear = /obj/item/device/radio/headset/heads/bscom
 	uniform = /obj/item/clothing/under/rank/commander
 	suit = /obj/item/clothing/suit/armor/commander/militia
@@ -52,7 +52,7 @@
 	backpack_contents = list(/obj/item/weapon/handcuffs = 1, /obj/item/device/lighting/toggleable/flashlight/seclite = 1, /obj/item/weapon/cell/small/high = 2, /obj/item/weapon/gun/energy/gun/martin = 1)
 
 /decl/hierarchy/outfit/job/security/serg
-	name = OUTFIT_JOB_NAME("Blackshield - Sergeant")
+	name = OUTFIT_JOB_NAME("Black Guard - Sergeant")
 	l_ear = /obj/item/device/radio/headset/headset_blackshield
 	uniform = /obj/item/clothing/under/instructor
 	head = /obj/item/clothing/head/rank/instructor_hat
@@ -81,7 +81,7 @@
 	backpack_overrides.Cut()
 
 /decl/hierarchy/outfit/job/security/medspec
-	name = OUTFIT_JOB_NAME("Infantry - Corpsman")
+	name = OUTFIT_JOB_NAME("Black Guard - Corpsman")
 	l_pocket = /obj/item/device/flash
 	l_ear = /obj/item/device/radio/headset/headset_blackshield
 	id_type = /obj/item/weapon/card/id/medcpec
@@ -103,7 +103,7 @@
 	backpack_contents = list(/obj/item/weapon/handcuffs = 1, /obj/item/device/lighting/toggleable/flashlight/seclite = 1, /obj/item/weapon/cell/small/high = 2, /obj/item/weapon/gun/energy/gun/martin = 1, /obj/item/weapon/storage/firstaid/adv = 1)
 
 /decl/hierarchy/outfit/job/security/troop
-	name = OUTFIT_JOB_NAME("Blackshield - Trooper")
+	name = OUTFIT_JOB_NAME("Black Guard - Trooper")
 	l_ear = /obj/item/device/radio/headset/headset_blackshield
 	l_pocket = /obj/item/device/flash
 	uniform = /obj/item/clothing/under/rank/trooper

@@ -107,7 +107,7 @@
 	funding_source = "Soteria Institution."
 
 /datum/department/church
-	name = "Order Hospitaller"
+	name = "Ordo Hospitaller"
 	id = DEPARTMENT_CHURCH
 	funding_type = FUNDING_EXTERNAL
 	funding_source = "Orden Hospitaller"

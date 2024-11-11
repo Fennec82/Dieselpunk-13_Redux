@@ -100,6 +100,7 @@
 	difficulty = "Medium."
 	selection_color = "#d5c88f"
 	wage = WAGE_PROFESSIONAL
+	alt_titles = list("Guild Engine Technician", "Guild Atmospheric Specialist", "Guild Firefighter")
 
 	outfit_type = /decl/hierarchy/outfit/job/engineering/engineer
 

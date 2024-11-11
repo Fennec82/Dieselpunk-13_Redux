@@ -270,7 +270,7 @@
 	faction = MAP_FACTION
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Blackshield Commander"
+	supervisors = "the Infantry Commander"
 	difficulty = "Hard."
 	selection_color = "#a7bbc6"
 	wage = WAGE_PROFESSIONAL
@@ -297,7 +297,7 @@
 							 /datum/computer_file/program/chem_catalog,
 							 /datum/computer_file/program/camera_monitor)
 
-	description = "The Corpsman is a highly trained medical specialist within the Blackshield - a mixture of combatant and doctor.<br>\
+	description = "The Corpsman is a highly trained medical specialist within the Black Guard - a mixture of combatant and doctor.<br>\
 	Your first duty is that of a field medic. Serve on the backlines of any combat situations, treating the wounded and evacuating the critical.<br>\
 	Your second duty is to treat any prisoners and suspects in custody. Wounds from escape and suicide attempts will test your surgical skills.<br>\
 	Your third duty, when faced with strange crimes, is to serve as a scientific analyst - scanning traces and conducting autopsies.<br>\
@@ -314,16 +314,16 @@
 
 
 /datum/job/trooper
-	title = "Blackshield Trooper"
+	title = "Black Guardsman"
 	flag = TROOPER
 	department = DEPARTMENT_SECURITY
 	department_flag = SECURITY
 	faction = MAP_FACTION
 	total_positions = 3
 	spawn_positions = 3
-	supervisors = "the Blackshield Commander"
+	supervisors = "the Infantry Commander"
 	difficulty = "Hard."
-	//alt_titles = list("Blackshield Junior Trooper")
+	alt_titles = list("Black Guardswoman", "Junior Trooper")
 	selection_color = "#a7bbc6"
 	wage = WAGE_LABOUR_HAZARD
 
@@ -356,7 +356,7 @@
 		Obey the law. You are not above it."
 
 /obj/landmark/join/start/trooper
-	name = "Blackshield Trooper"
+	name = "Black Guard Trooper"
 	icon_state = "player-blue"
 	join_tag = /datum/job/trooper
 
@@ -371,7 +371,7 @@
 	spawn_positions = 4
 	supervisors = "the Warrant Officer"
 	difficulty = "Hard."
-	//alt_titles = list("Marshal Junior Operative")
+	alt_titles = list("Junior Master-at-Arms")
 	selection_color = "#a7bbc6"
 	wage = WAGE_LABOUR_HAZARD
 
@@ -404,7 +404,7 @@
 		Obey the law. You are not above it."
 
 /obj/landmark/join/start/officer
-	name = "Marshal Officer"
+	name = "Master-at-Arms"
 	icon_state = "player-blue"
 	join_tag = /datum/job/officer
 

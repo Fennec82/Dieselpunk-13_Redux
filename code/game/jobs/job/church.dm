@@ -42,7 +42,7 @@
 		CRUCIFORM_REDLIGHT
 	)
 
-	description = "The Confessor serves as the head of the local branch of the Orden Hospitaller. <br>\
+	description = "The Confessor serves as the head of the local branch of the Order Hospitaller. <br>\
 	You represent the interest of the church and its disciples within the colony - identified by the cruciform implant upon their breast.<br>\
 	Your most pressing duty is as a spiritual leader. Preach to the flock, inspire faith and strength, and convert those seeking salvation.<br>\
 	While you are no trained psychologist, you can provide support and guidance to all - in both bright and dark times.<br>\
