@@ -1,6 +1,6 @@
 var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 
-/datum/job/Mayor
+/datum/job/premier
 	title = "Mayor"
 	flag = Mayor
 	department = DEPARTMENT_COMMAND
