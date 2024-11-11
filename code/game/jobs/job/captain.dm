@@ -1,8 +1,8 @@
 var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 
-/datum/job/premier
+/datum/job/Mayor
 	title = "Mayor"
-	flag = PREMIER
+	flag = Mayor
 	department = DEPARTMENT_COMMAND
 	head_position = 1
 	department_flag = COMMAND
@@ -59,10 +59,10 @@ Treat your command officers with respect, and listen to their council. Try not t
 	get_access()
 		return get_all_station_access()
 
-/obj/landmark/join/start/premier
+/obj/landmark/join/start/Mayor
 	name = "Mayor"
 	icon_state = "player-gold-officer"
-	join_tag = /datum/job/premier
+	join_tag = /datum/job/Mayor
 
 /datum/job/pg
 	title = "Steward"
@@ -73,7 +73,7 @@ Treat your command officers with respect, and listen to their council. Try not t
 	faction = MAP_FACTION
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Premier"
+	supervisors = "the Mayor"
 	difficulty = "Hard."
 	selection_color = "#ddddff"
 	req_admin_notify = 1
@@ -81,15 +81,15 @@ Treat your command officers with respect, and listen to their council. Try not t
 	ideal_character_age = 35
 	minimum_character_age = 30
 
-	description = "The Steward is the loyal right-hand of the Premier. Serving as a personal guard, follow him wherever he goes.<br>\
-	Your primary, and perhaps only, responsibility is to ensure the safety of the Premier at all costs - even your own life if necessary.<br>\
+	description = "The Steward is the loyal right-hand of the Mayor. Serving as a personal guard, follow him wherever he goes.<br>\
+	Your primary, and perhaps only, responsibility is to ensure the safety of the Mayor at all costs - even your own life if necessary.<br>\
 	However, you are an advisor as well as a bodyguard. Discreetly inform him of mistakes. Make sure he follows the law and remains popular.<br>\
-	You may be assigned special tasks by the Premier for whatever reason. Ensure these orders are fulfilled.<br>\
+	You may be assigned special tasks by the Mayor for whatever reason. Ensure these orders are fulfilled.<br>\
 	Do not embarass him, and especially do not harm his relations with faction leaders. You may not do much talking, but you have great impact."
 
-	duties = "Act as a bodyguard, advisor, and confidant to the Premier.<br>\
-	Remain conscious of any potential threats to the safety of the Premier.<br>\
-	Perform tasks as assigned by the Premier - such as filling paperwork or reassigning roles.<br>\
+	duties = "Act as a bodyguard, advisor, and confidant to the Mayor.<br>\
+	Remain conscious of any potential threats to the safety of the Mayor.<br>\
+	Perform tasks as assigned by the Mayor - such as filling paperwork or reassigning roles.<br>\
 	Demonstrate true loyalty and do not let your superior down."
 
 	outfit_type = /decl/hierarchy/outfit/job/hop

@@ -90,7 +90,7 @@
 		STAT_BIO = 10,
 	)
 
-	description = "The Scientist is a researcher representing the Soteria Institute, standing at the frontier of human advancement.<br>\
+	description = "The Scientist is a researcher representing the Nadezhda State Research Academy, standing at the frontier of human advancement.<br>\
 	You may engage in a variety of research projects in four distinct fields - R&D, Xenoflora, Xenobiology, and Xenoarchaeology.<br>\
 	The manufacture of high tech devices is the primary source of income for NaSRA, but artefacts and alien life may offer great potential.<br>\
 	Remember that dedicated specialists exist for robotics projects. You may work closely for general R&D, but avoid taking over robotics."
