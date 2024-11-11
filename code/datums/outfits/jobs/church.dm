@@ -47,7 +47,7 @@
 	suit = /obj/item/clothing/suit/space/void/medarmor
 	shoes = /obj/item/clothing/shoes/jackboots
 	gloves = /obj/item/clothing/gloves/thick
-	backpack_contents = list(/obj/item/weapon/book/ritual/cruciform/priest = 1)
+	backpack_contents = list(/obj/item/weapon/book/ritual/cruciform/priest = 1, /obj/item/weapon/storage/firstaid/combat = 1)
 
 /decl/hierarchy/outfit/job/church/chaplain
 	name = OUTFIT_JOB_NAME("Hospitaller - Chaplain")
