@@ -19,7 +19,7 @@
 		STAT_COG = 25
 	)
 
-	desc = "Focused on keeping the peace and fighting off threats to the colony, the IH K9 Module is a \
+	desc = "Focused on keeping the peace and fighting off threats to the city, the Enforcer K9 Module is a \
 	heavily armored, though lightly armed battle unit."
 
 /obj/item/weapon/robot_module/robot/knine/New(var/mob/living/silicon/robot/R)
@@ -286,7 +286,7 @@
 	speed_factor = 1.4 //Slightly above average
 	power_efficiency = 1 //Slightly below average
 
-	desc = "The engineering module is designed for setting up and maintaining core colony systems, \
+	desc = "The Guild engineering module is designed for setting up and maintaining core city systems, \
 	as well as occasional repair work here and there. It's a good all rounder that can serve most \
 	engineering tasks."
 
