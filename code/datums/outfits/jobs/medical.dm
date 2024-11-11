@@ -21,6 +21,7 @@
 	pda_type = /obj/item/modular_computer/pda/heads/cmo
 	r_ear  = /obj/item/weapon/reagent_containers/syringe/large
 	belt = /obj/item/weapon/storage/belt/medical/
+	backpack_contents = list(/obj/item/weapon/melee/telebaton = 1)
 
 /decl/hierarchy/outfit/job/medical/doctor
 	name = OUTFIT_JOB_NAME("Soteria - Medical Doctor")

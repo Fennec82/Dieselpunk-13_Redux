@@ -17,7 +17,7 @@
 	suit = /obj/item/clothing/suit/storage/chaplain
 	shoes = /obj/item/clothing/shoes/reinforced
 	gloves = /obj/item/clothing/gloves/thick
-	backpack_contents = list(/obj/item/weapon/book/ritual/cruciform/priest = 1, /obj/item/weapon/storage/box/flashbangs = 1)
+	backpack_contents = list(/obj/item/weapon/book/ritual/cruciform/priest = 1, /obj/item/weapon/storage/box/flashbangs = 1, /obj/item/weapon/melee/telebaton = 1)
 
 /decl/hierarchy/outfit/job/church/broknight
 	name = OUTFIT_JOB_NAME("Hospitaller - Brother-Knight")

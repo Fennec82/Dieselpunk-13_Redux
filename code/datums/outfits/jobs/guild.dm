@@ -12,6 +12,7 @@
 	id_type = /obj/item/weapon/card/id/car
 	pda_type = /obj/item/modular_computer/pda/cargo
 	l_ear = /obj/item/device/radio/headset/heads/merchant
+	backpack_contents = list(/obj/item/weapon/melee/telebaton = 1)
 
 /decl/hierarchy/outfit/job/cargo/cargo_tech
 	name = OUTFIT_JOB_NAME("Lonestar - Cargo Technician")
