@@ -69,6 +69,7 @@
 	selection_color = "#a8b69a"
 	wage = WAGE_PROFESSIONAL
 	minimum_character_age = 25
+	alt_titles = list("Emergency Physician", "Surgeon", "Field Surgeon", "Chemist", "Pharmacist", "Virologist")
 
 	outfit_type = /decl/hierarchy/outfit/job/medical/doctor
 
