@@ -62,7 +62,7 @@
 	backpack_contents = list(/obj/item/weapon/handcuffs = 1, /obj/item/device/lighting/toggleable/flashlight/seclite = 1, /obj/item/weapon/cell/small/high = 2, /obj/item/weapon/gun/energy/gun/martin = 1)
 
 /decl/hierarchy/outfit/job/security/inspector
-	name = OUTFIT_JOB_NAME("Provosts - Master-At-Arms")
+	name = OUTFIT_JOB_NAME("Provosts - Master-At-Arms Investigator")
 	head = /obj/item/clothing/head/rank/inspector
 	uniform = /obj/item/clothing/under/rank/inspector
 	suit = /obj/item/clothing/suit/storage/rank/insp_trench
