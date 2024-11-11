@@ -24,7 +24,7 @@
 	id_type = /obj/item/weapon/card/id/hos
 	head = /obj/item/clothing/head/rank/commander
 	pda_type = /obj/item/modular_computer/pda/heads/hos
-	backpack_contents = list(/obj/item/weapon/handcuffs = 1,/obj/item/ammo_magazine/kurtz_50/rubber = 2,/obj/item/device/lighting/toggleable/flashlight/seclite = 1, /obj/item/weapon/cell/small/high = 2, /obj/item/weapon/gun/energy/gun/martin = 1)
+	backpack_contents = list(/obj/item/weapon/handcuffs = 1,/obj/item/ammo_magazine/kurtz_50/rubber = 2,/obj/item/device/lighting/toggleable/flashlight/seclite = 1, /obj/item/weapon/cell/small/high = 2, /obj/item/weapon/gun/energy/gun/martin = 1, /obj/item/weapon/storage/firstaid/combat = 1)
 
 /decl/hierarchy/outfit/job/security/smc
 	name = OUTFIT_JOB_NAME("Blackshield - Blackshield Commander")
