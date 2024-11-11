@@ -1,5 +1,5 @@
 /datum/job/cmo
-	title = "Biolab Overseer"
+	title = "Surgeon General"
 	flag = CBO
 	head_position = 1
 	department = DEPARTMENT_MEDICAL
@@ -38,11 +38,11 @@
 							 /datum/computer_file/program/chem_catalog,
 							 /datum/computer_file/program/reports)
 
-	description = "The Biolab Overseer is the head of the State Hospital, preserving and improving lives.<br>\
+	description = "The Surgeon General is the head of the State Hospital, preserving and improving lives.<br>\
 	Your main responsibility is to keep everyone alive, as is the objective of your department. Prioritise health over most other concerns. <br>\
 	A variety of medical staff work under your command. Although these roles are clear-cut compared to the research branch, direct them appropriately.<br>\
 	Of course, remember that you are a doctor yourself - feel free to help with less specialised activities to ease the burden.<br>\
-	The Medical wing also falls under the ownership of Soteria. You may use their resources - and they may use yours - as needed."
+	The Medical wing also falls under the ownership of Nadezhda State Research Academy. You may use their resources - and they may use yours - as needed."
 
 	duties = "Direct the doctors under your command towards the bettering of all mankind.<br>\
 	Dispatch your paramedics to distress calls, and corpse recoveries as needed.<br>\
@@ -52,7 +52,7 @@
 	In times of crisis, lock down the medbay to protect those within, from outside threats."
 
 /obj/landmark/join/start/cmo
-	name = "Chief Biolab Overseer"
+	name = "Surgeon General"
 	icon_state = "player-green-officer"
 	join_tag = /datum/job/cmo
 
@@ -64,7 +64,7 @@
 	faction = MAP_FACTION
 	total_positions = 5
 	spawn_positions = 5
-	supervisors = "the Biolab Overseer"
+	supervisors = "the Surgeon General"
 	difficulty = "Medium."
 	selection_color = "#a8b69a"
 	wage = WAGE_PROFESSIONAL
@@ -111,7 +111,7 @@
 	faction = MAP_FACTION
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "the Biolab Overseer"
+	supervisors = "the Surgeon General"
 	difficulty = "Medium."
 	selection_color = "#a8b69a"
 	wage = WAGE_PROFESSIONAL
@@ -136,9 +136,9 @@
 
 	description = "The Orderly is not a man of science nor medicine, they are strictly in charge of enforcing the chief biolabs orders and sometimes the chief research overseer's orders.<br>\
 	Your primary role is that of a thug for medical. You make sure that medical remains safe by ensuring people don't trespass or steal items and remove those who shouldn't be there, by force if necessary.<br>\
-	Your secondary responsibility is that of an soteria enforcer. Actions that require in house enforcement such as aiding doctors and security with violent patients in medical, securing the virology lab during an outbreak, and aiding in the destruction of escape slimes or kudzu from science.<br>\
+	Your secondary responsibility is that of an enforcer. Actions that require in house enforcement such as aiding doctors and security with violent patients in medical, securing the virology lab during an outbreak, and aiding in the destruction of escape slimes or kudzu from science.<br>\
 	Your third duty is to aid medical doctors and paramedics in fixing patients, this can include retrieving chemicals, doing basic triage, and accompanying paramedics to aid them in getting injured patients.<br>\
-	You are fully licensed to sell any and all chemicals to all colonists. If someone isn't an employee of Soteria Institute, charge them for their chemicals.<br>\
+	You are fully licensed to sell any and all chemicals to all colonists. If someone isn't an employee of the Nadezhda State Research Academy, charge them for their chemicals.<br>\
 	It's worth noting that you function heavily as a nurse when not acting as muscle and treatment of patients should be priority, in particular when assisting doctors."
 
 	duties = "Act as a guard for medical, ensuring unneeded colonist leave and nothing is stolen.<br>\
@@ -160,7 +160,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	wage = WAGE_PROFESSIONAL
-	supervisors = "the Biolab Overseer"
+	supervisors = "the Surgeon General"
 	difficulty = "Easy To Medium."
 	selection_color = "#a8b69a"
 
@@ -205,7 +205,7 @@
 	faction = MAP_FACTION
 	total_positions = 3
 	spawn_positions = 3
-	supervisors = "the Biolab Overseer"
+	supervisors = "the Surgeon General"
 	difficulty = "Medium."
 	selection_color = "#a8b69a"
 	wage = WAGE_LABOUR_HAZARD
@@ -234,7 +234,7 @@
 	You are trained but lack seniority. Follow the guidance of other doctors - and transport patients back for specialist treatments.<br>\
 	Remember that you must often respond to emergencies. Pack your gear carefully and bring a breaching tool - be ready to run at short notice.<br>\
 	Your other duties include transporting patients between rooms, running errands, and generally saving time for other doctors.<br>\
-	Corpse recovery may also fall within your duties. If the body is in a dangerous location, enlist the help of the Blackshield."
+	Corpse recovery may also fall within your duties. If the body is in a dangerous location, enlist the help of the Blackshield or the Church."
 
 	duties = "Respond to distress calls and extract wounded people from dangerous situations.<br>\
 	Watch the crew monitor for signs of injuries or deaths and respond accordingly.<br>\

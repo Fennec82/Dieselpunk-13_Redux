@@ -12,23 +12,23 @@
 	BACKPACK_OVERRIDE_RESEARCH
 
 /decl/hierarchy/outfit/job/science/rd
-	name = OUTFIT_JOB_NAME("Soteria - Expedition Overseer")
+	name = OUTFIT_JOB_NAME("MedSci - Expedition Overseer")
 	l_ear = /obj/item/device/radio/headset/heads/rd
 	shoes = /obj/item/clothing/shoes/reinforced
 	uniform = /obj/item/clothing/under/rank/expedition_overseer
 	l_hand = /obj/item/weapon/clipboard
 	id_type = /obj/item/weapon/card/id/rd
 	pda_type = /obj/item/modular_computer/pda/heads/rd
-	backpack_contents = list(/obj/item/weapon/oddity/secdocs = 1)
+	backpack_contents = list(/obj/item/weapon/oddity/secdocs = 1, /obj/item/weapon/melee/telebaton = 1)
 
 /decl/hierarchy/outfit/job/science/scientist
-	name = OUTFIT_JOB_NAME("Soteria - Scientist")
+	name = OUTFIT_JOB_NAME("MedSci - Scientist")
 
 /decl/hierarchy/outfit/job/science/xenobiologist
-	name = OUTFIT_JOB_NAME("Soteria - Xenobiologist")
+	name = OUTFIT_JOB_NAME("MedSci - Xenobiologist")
 
 /decl/hierarchy/outfit/job/science/roboticist
-	name = OUTFIT_JOB_NAME("Soteria - Roboticist")
+	name = OUTFIT_JOB_NAME("MedSci - Roboticist")
 	uniform = /obj/item/clothing/under/rank/roboticist
 	suit = /obj/item/clothing/suit/storage/rank/robotech_jacket
 	belt = /obj/item/weapon/storage/belt/utility/full

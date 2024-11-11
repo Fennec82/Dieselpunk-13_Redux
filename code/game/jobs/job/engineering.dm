@@ -70,11 +70,11 @@
 							 /datum/computer_file/program/shield_control,
 							 /datum/computer_file/program/reports)
 
-	description = "The Guild Master is the head of the Artificers Guild, a group of skilled engineers. This colony is your pride.<br>\
-	You are to keep the colony running and constantly improve it as much as you are able. Let none question the efficacy of your labours.<br>\
+	description = "The Guild Master is the head of the Artificers Guild, a group of skilled engineers. This city is your pride.<br>\
+	You are to keep the city running and constantly improve it as much as you are able. Let none question the efficacy of your labours.<br>\
 	As a leader, it is far more efficient for you to delegate work than attempting to solve everything yourself - spread the labour.<br>\
 	Machinery across the station is your responsibility. Let no outsiders interfere or intrude into your domain - even Command staff are no exception.<br>\
-	Treat every Guild member like your family. Keep them paid, fed, and safe. You may be a part of the wider colony, but your own come first."
+	Treat every Guild member like your family. Keep them paid, fed, and safe. You may be a part of the wider city, but your own come first."
 
 	duties = "Manage the Guild Adepts - set tasks and areas of focus.<br>\
 	Strive to protect the rights of your Adepts, as well as their safety and health.<br>\
@@ -151,7 +151,7 @@
 							 /datum/computer_file/program/camera_monitor,
 							 /datum/computer_file/program/shield_control)
 
-	description = "The Guild Adept is a member of one of the greatest engineering guilds in the galaxy, contracted to maintain this colony.<br>\
+	description = "The Guild Adept is a member of one of the greatest engineering guilds in the galaxy, contracted to maintain this city.<br>\
 Your main priority is ensuring the setup and maintenance of the supermatter engine. Seek guidance on this complex machine if untrained.<br>\
 Outside of this, you should devote time to learning and configuring various systems. Everything can be improved, and new constructs can be made.<br>\
 This upgrade culture extends to your own arsenal - mod and upgrade your tools with parts from maintenance, or purchased from Lonestar or the Prospectors.<br>\
@@ -160,7 +160,7 @@ Do not let outsiders, even Command Staff, interfere with the duties of the Guild
 	duties = "Start up the supermatter.<br>\
 	Repair anything and anyone that needs some maintenance.<br>\
 	Respond to distress calls and patch breaches in the walls.<br>\
-	Keep every part of the colony powered, oxygenated, and ready to use."
+	Keep every part of the city powered, oxygenated, and ready to use."
 
 	perks = list(/datum/perk/inspiration, /datum/perk/handyman)
 

@@ -11,7 +11,7 @@
 	BACKPACK_OVERRIDE_MEDICAL
 
 /decl/hierarchy/outfit/job/medical/cmo
-	name = OUTFIT_JOB_NAME("Soteria - Biolab Overseer")
+	name = OUTFIT_JOB_NAME("MedSci - Surgeon General")
 	l_ear  =/obj/item/device/radio/headset/heads/cmo
 	uniform = /obj/item/clothing/under/rank/moebius_biolab_officer
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat/cmo
@@ -21,9 +21,10 @@
 	pda_type = /obj/item/modular_computer/pda/heads/cmo
 	r_ear  = /obj/item/weapon/reagent_containers/syringe/large
 	belt = /obj/item/weapon/storage/belt/medical/
+	backpack_contents = list(/obj/item/weapon/melee/telebaton = 1)
 
 /decl/hierarchy/outfit/job/medical/doctor
-	name = OUTFIT_JOB_NAME("Soteria - Medical Doctor")
+	name = OUTFIT_JOB_NAME("MedSci - Medical Doctor")
 	uniform = /obj/item/clothing/under/rank/medical
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat
 	l_hand = /obj/item/weapon/storage/firstaid/adv
@@ -32,7 +33,7 @@
 	belt = /obj/item/weapon/storage/belt/medical/
 
 /decl/hierarchy/outfit/job/medical/orderly
-	name = OUTFIT_JOB_NAME("Soteria - Orderly")
+	name = OUTFIT_JOB_NAME("MedSci - Orderly")
 	uniform = /obj/item/clothing/under/scrubs
 	id_type = /obj/item/weapon/card/id/med
 	pda_type = /obj/item/modular_computer/pda/science/medical
@@ -46,13 +47,13 @@
 	BACKPACK_OVERRIDE_MEDICAL
 
 /decl/hierarchy/outfit/job/medical/psychiatrist
-	name = OUTFIT_JOB_NAME("Soteria - Psychiatrist")
+	name = OUTFIT_JOB_NAME("MedSci - Psychiatrist")
 	uniform = /obj/item/clothing/under/rank/psych
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat
 	r_ear  = /obj/item/weapon/reagent_containers/syringe/large
 
 /decl/hierarchy/outfit/job/medical/paramedic
-	name = OUTFIT_JOB_NAME("Soteria - Paramedic")
+	name = OUTFIT_JOB_NAME("MedSci - Paramedic")
 	uniform = /obj/item/clothing/under/rank/paramedic
 	shoes = /obj/item/clothing/shoes/jackboots
 	l_hand = /obj/item/weapon/storage/firstaid/adv

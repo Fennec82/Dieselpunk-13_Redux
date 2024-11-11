@@ -362,7 +362,7 @@
 
 
 /datum/job/officer
-	title = "Marshal Officer"
+	title = "Master-at-Arms"
 	flag = OFFICER
 	department = DEPARTMENT_SECURITY
 	department_flag = SECURITY

@@ -1,7 +1,7 @@
 var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 
 /datum/job/premier
-	title = "Premier"
+	title = "Mayor"
 	flag = PREMIER
 	department = DEPARTMENT_COMMAND
 	head_position = 1
@@ -23,16 +23,16 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 
 	perks = list(/datum/perk/sommelier)
 
-	description = "The Premier is the prime mediator of the colony itself, acting as a trusted advisor amongst their peers.<br>\
-You are trusted with control of the colony primary accounts, and are also able to control access within the colony.<br>\
+	description = "The mayor is the prime mediator of the city itself, acting as a trusted advisor amongst their peers.<br>\
+You are trusted with control of the city's primary accounts, and are also able to control access within the city.<br>\
 Your primary objective is to oversee council decisions, change access levels, and act as both lawyer and consultant in various decisions.<br>\
-You are not the supreme leader of the colony and your word is only an advisement. The only person you can give legal orders to is the Steward.<br>\
+You are not the supreme leader of the city and your word is only an advisement. The only person you can give legal orders to is the Steward.<br>\
 The heads of the factions which make up the council each have their own agendas. Their interests must be served to avoid issues.<br>\
 Treat your command officers with respect, and listen to their council. Try not to micromanage their departments or interfere in their affairs."
 
-	duties = "Work between the varying interests of council members to achieve colony stability.<br>\
+	duties = "Work between the varying interests of council members to achieve stability.<br>\
 	Offer advise and counsel when approached, particularly during important decisions.<br>\
-	Manage the colony primary accounts and access levels accordingly."
+	Manage the city's primary accounts and access levels accordingly."
 
 	stat_modifiers = list(
 		STAT_ROB = 15,
@@ -60,7 +60,7 @@ Treat your command officers with respect, and listen to their council. Try not t
 		return get_all_station_access()
 
 /obj/landmark/join/start/premier
-	name = "Premier"
+	name = "Mayor"
 	icon_state = "player-gold-officer"
 	join_tag = /datum/job/premier
 
@@ -73,7 +73,7 @@ Treat your command officers with respect, and listen to their council. Try not t
 	faction = MAP_FACTION
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Premier"
+	supervisors = "the Mayor"
 	difficulty = "Hard."
 	selection_color = "#ddddff"
 	req_admin_notify = 1
@@ -81,15 +81,15 @@ Treat your command officers with respect, and listen to their council. Try not t
 	ideal_character_age = 35
 	minimum_character_age = 30
 
-	description = "The Steward is the loyal right-hand of the Premier. Serving as a personal guard, follow him wherever he goes.<br>\
-	Your primary, and perhaps only, responsibility is to ensure the safety of the Premier at all costs - even your own life if necessary.<br>\
+	description = "The Steward is the loyal right-hand of the Mayor. Serving as a personal guard, follow him wherever he goes.<br>\
+	Your primary, and perhaps only, responsibility is to ensure the safety of the Mayor at all costs - even your own life if necessary.<br>\
 	However, you are an advisor as well as a bodyguard. Discreetly inform him of mistakes. Make sure he follows the law and remains popular.<br>\
-	You may be assigned special tasks by the Premier for whatever reason. Ensure these orders are fulfilled.<br>\
+	You may be assigned special tasks by the Mayor for whatever reason. Ensure these orders are fulfilled.<br>\
 	Do not embarass him, and especially do not harm his relations with faction leaders. You may not do much talking, but you have great impact."
 
-	duties = "Act as a bodyguard, advisor, and confidant to the Premier.<br>\
-	Remain conscious of any potential threats to the safety of the Premier.<br>\
-	Perform tasks as assigned by the Premier - such as filling paperwork or reassigning roles.<br>\
+	duties = "Act as a bodyguard, advisor, and confidant to the Mayor.<br>\
+	Remain conscious of any potential threats to the safety of the Mayor.<br>\
+	Perform tasks as assigned by the Mayor - such as filling paperwork or reassigning roles.<br>\
 	Demonstrate true loyalty and do not let your superior down."
 
 	outfit_type = /decl/hierarchy/outfit/job/hop

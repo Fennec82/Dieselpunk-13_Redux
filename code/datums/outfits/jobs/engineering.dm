@@ -22,6 +22,7 @@
 	l_ear = /obj/item/device/radio/headset/heads/ce
 	id_type = /obj/item/weapon/card/id/ce
 	pda_type = /obj/item/modular_computer/pda/heads/ce
+	backpack_contents = list(/obj/item/weapon/melee/telebaton = 1)
 
 /decl/hierarchy/outfit/job/engineering/engineer
 	name = OUTFIT_JOB_NAME("Artificer - Guild Adept")
