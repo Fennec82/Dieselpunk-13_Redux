@@ -12,6 +12,7 @@
 	req_admin_notify = 1
 	account_allowed = 0
 	wage = WAGE_NONE
+	alt_titles = list("Automated Overseer", "Synthetic Overwatch")
 	outfit_type = /decl/hierarchy/outfit/job/silicon/ai
 
 	description = "The AI serves as the all-seeing eye of the city, possessing influence over machines and synthetics.<br>\
