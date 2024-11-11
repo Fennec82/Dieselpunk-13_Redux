@@ -1,5 +1,5 @@
 /datum/job/assistant
-	title = "Colonist"
+	title = "Civilian"
 	flag = ASSISTANT
 	department = DEPARTMENT_CIVILIAN
 	department_flag = CIVILIAN
@@ -11,7 +11,7 @@
 	selection_color = "#dddddd"
 	initial_balance	= 800
 	wage = WAGE_NONE //Get a job ya lazy bum
-	//alt_titles = list("Visitor", "Refugee","Guild Novice","Soteria Intern","Lonestar Intern")
+	alt_titles = list("Visitor", "Refugee","Guild Novice","State Research Academy Intern","Lonestar Intern")
 
 	outfit_type = /decl/hierarchy/outfit/job/assistant
 
