@@ -59,10 +59,10 @@ Treat your command officers with respect, and listen to their council. Try not t
 	get_access()
 		return get_all_station_access()
 
-/obj/landmark/join/start/Mayor
+/obj/landmark/join/start/mayor
 	name = "Mayor"
 	icon_state = "player-gold-officer"
-	join_tag = /datum/job/Mayor
+	join_tag = /datum/job/premier
 
 /datum/job/pg
 	title = "Steward"
