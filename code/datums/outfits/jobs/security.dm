@@ -100,7 +100,7 @@
 	glasses = /obj/item/clothing/glasses/sechud/tactical
 	head = /obj/item/clothing/head/helmet
 	gloves = /obj/item/clothing/gloves/stungloves
-	backpack_contents = list(/obj/item/weapon/handcuffs = 1, /obj/item/device/lighting/toggleable/flashlight/seclite = 1, /obj/item/weapon/cell/small/high = 2, /obj/item/weapon/gun/energy/gun/martin = 1)
+	backpack_contents = list(/obj/item/weapon/handcuffs = 1, /obj/item/device/lighting/toggleable/flashlight/seclite = 1, /obj/item/weapon/cell/small/high = 2, /obj/item/weapon/gun/energy/gun/martin = 1, /obj/item/weapon/storage/firstaid/adv = 1)
 
 /decl/hierarchy/outfit/job/security/troop
 	name = OUTFIT_JOB_NAME("Blackshield - Trooper")
