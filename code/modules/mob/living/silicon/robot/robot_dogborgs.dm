@@ -19,7 +19,7 @@
 		STAT_COG = 25
 	)
 
-	desc = "Focused on keeping the peace and fighting off threats to the city, the Enforcer K9 Module is a \
+	desc = "Focused on keeping the peace and fighting off threats to the city, the enforcer K9 Module is a \
 	heavily armored, though lightly armed battle unit."
 
 /obj/item/weapon/robot_module/robot/knine/New(var/mob/living/silicon/robot/R)
