@@ -23,16 +23,16 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 
 	perks = list(/datum/perk/sommelier)
 
-	description = "The Mayor is the prime mediator of the commune itself, acting as a trusted advisor amongst their peers.<br>\
-You are trusted with control of the colony primary accounts, and are also able to control access within the commune.<br>\
+	description = "The mayor is the prime mediator of the city itself, acting as a trusted advisor amongst their peers.<br>\
+You are trusted with control of the city's primary accounts, and are also able to control access within the city.<br>\
 Your primary objective is to oversee council decisions, change access levels, and act as both lawyer and consultant in various decisions.<br>\
-You are not the supreme leader of the commune and your word is only an advisement. The only person you can give legal orders to is the Steward.<br>\
+You are not the supreme leader of the city and your word is only an advisement. The only person you can give legal orders to is the Steward.<br>\
 The heads of the factions which make up the council each have their own agendas. Their interests must be served to avoid issues.<br>\
 Treat your command officers with respect, and listen to their council. Try not to micromanage their departments or interfere in their affairs."
 
 	duties = "Work between the varying interests of council members to achieve stability.<br>\
 	Offer advise and counsel when approached, particularly during important decisions.<br>\
-	Manage the commune's primary accounts and access levels accordingly."
+	Manage the city's primary accounts and access levels accordingly."
 
 	stat_modifiers = list(
 		STAT_ROB = 15,
