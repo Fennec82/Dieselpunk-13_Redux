@@ -51,7 +51,7 @@
 	Command
 **************/
 /datum/department/command
-	name = "Nadezhda City Council"
+	name = "Darkwall City Council"
 	id = DEPARTMENT_COMMAND
 	/*
 	The command account is the ship account. It is the master account that retainer departments are paid from,
@@ -70,7 +70,7 @@
 **************/
 //These departments are paid out of ship funding
 /datum/department/ironhammer
-	name = "Nadezhda Black Guard"
+	name = "Darkwall Commune Black Guard"
 	id = DEPARTMENT_SECURITY
 	funding_type = FUNDING_EXTERNAL
 	account_initial_balance = 5000
@@ -81,7 +81,7 @@
 	funding_type = FUNDING_EXTERNAL
 
 /datum/department/civilian
-	name = "Nadezhda Contractors"
+	name = "Darkwall Civvies"
 	id = DEPARTMENT_CIVILIAN
 	account_budget = 0
 	account_initial_balance = 0
@@ -94,13 +94,13 @@
 *******************/
 //Departments subsidised by an external organisation. These pay their own employees
 /datum/department/moebius_medical
-	name = "Nadezhda State Research Academy: Medical Division"
+	name = "Darkwall State Research Academy: Medical Division"
 	id = DEPARTMENT_MEDICAL
 	funding_type = FUNDING_EXTERNAL
 	funding_source = "Soteria Institution."
 
 /datum/department/moebius_research
-	name = "Nadezhda State Research Academy: Science Division"
+	name = "Darkwall State Research Academy: Science Division"
 	id = DEPARTMENT_SCIENCE
 	account_budget = 5000 //For buying materials and components and things of scientific value
 	funding_type = FUNDING_EXTERNAL
@@ -119,7 +119,7 @@
 *******************/
 //Self funds and pays wages out of its earnings
 /datum/department/guild
-	name = "Nadezhda Shipping & Solutions"
+	name = "Darkwall Shipping & Solutions"
 	id = DEPARTMENT_NSS
 
 	/*
@@ -129,7 +129,7 @@
 	account_initial_balance = 15000
 	funding_type = FUNDING_EXTERNAL
 	account_budget = 2500
-	funding_source = "NSS Subsidiaries"
+	funding_source = "DSS Subsidiaries"
 
 /datum/department/prospector
 	name = "Prospectors"
@@ -137,4 +137,4 @@
 	account_initial_balance = 7500
 	funding_type = FUNDING_EXTERNAL
 	account_budget = 2500
-	funding_source = "NSS Subsidiaries"
+	funding_source = "DSS Subsidiaries"

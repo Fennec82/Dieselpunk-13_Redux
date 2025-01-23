@@ -1,19 +1,19 @@
 /datum/faction/nadezhda
-	name = "Nadezhda High Council"
+	name = "Zai'khet Confederacy Government"
 
 	fax_alert = "HIGH COUNCIL FAX"
-	fax_response = "High Council Missive"
+	fax_response = "Imperial missive"
 
 	color = "#222222"
 	darkcolor = "#222222"
 	lightcolor = "#bbbbbb"
 
-	stamptext = "This paper has been notarized with the seal of the Nadezhda Commonwealth."
+	stamptext = "This paper has been notarized with the seal of the Zai'khet Confederacy."
 	stampshape = "paper_stamp-circle"
 	faxable = TRUE
 
 /datum/faction/nadezhda/marshal
-	name = "Nadezhda Black Guard - Provost Command"
+	name = "Darkwall Commune Black Guard - Provost Command"
 
 	fax_alert = "PROVOST COMMUNIQUE"
 	fax_response = "Provost Orders"
@@ -26,7 +26,7 @@
 	stampshape = "paper_stamp-x"
 
 /datum/faction/nadezhda/military
-	name = "Nadezhda Black Guard - Infantry Command"
+	name = "Darkwall Commune Black Guard - Infantry Command"
 
 	fax_alert = "INFANTRY COMMUNIQUE"
 	fax_response = "Black Guard Orders"
@@ -39,7 +39,7 @@
 	stampshape = "paper_stamp-x"
 
 /datum/faction/nadezhda/soteria
-	name = "Nadezhda State Research Academy - Headmaster"
+	name = "Darkwall Commune State Research Academy - Headmaster"
 
 	fax_alert = "ACADEMY FAX"
 	fax_response = "Headmaster Response"
@@ -52,10 +52,10 @@
 	stampshape = "paper_stamp-dots"
 
 /datum/faction/nadezhda/lonestar
-	name = "Nadezhda Shipping & Salvage - Comptroller General"
+	name = "Darkwall Commune Shipping & Salvage - Comptroller General"
 
-	fax_alert = "N.S.S. REQUISITION FAX"
-	fax_response = "N.S.S Correspondance"
+	fax_alert = "D.S.S. REQUISITION FAX"
+	fax_response = "D.S.S Correspondance"
 
 	color = "#ff8800"
 	darkcolor = "#be6602"
@@ -91,14 +91,14 @@
 	stampshape = "paper_stamp-dots"
 
 /datum/faction/nadezhda/kriosans
-	name = "Colony Allies - Kriosan Kaiserreich"
+	name = "Colony Allies - Coalition of Anthro Species"
 
 	fax_alert = "KRIOSAN FAX"
-	fax_response = "Transmission from the Kaiserreich"
+	fax_response = "Transmission from the Coalition"
 
 	color = "#009912"
 	darkcolor = "#00580a"
 	lightcolor = "#47c156"
 
-	stamptext = "This paper has been stamped with the seal of a Thronritter."
+	stamptext = "This paper has been stamped with the seal of a coalition admiral."
 	stampshape = "paper_stamp-dots"
