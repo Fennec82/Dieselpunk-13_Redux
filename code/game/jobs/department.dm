@@ -97,14 +97,14 @@
 	name = "Darkwall State Research Academy: Medical Division"
 	id = DEPARTMENT_MEDICAL
 	funding_type = FUNDING_EXTERNAL
-	funding_source = "Soteria Institution."
+	funding_source = "Akatsuki Industries"
 
 /datum/department/moebius_research
 	name = "Darkwall State Research Academy: Science Division"
 	id = DEPARTMENT_SCIENCE
 	account_budget = 5000 //For buying materials and components and things of scientific value
 	funding_type = FUNDING_EXTERNAL
-	funding_source = "Soteria Institution."
+	funding_source = "Akatsuki Industries"
 
 /datum/department/church
 	name = "Ordo Hospitaller"
@@ -129,7 +129,7 @@
 	account_initial_balance = 15000
 	funding_type = FUNDING_EXTERNAL
 	account_budget = 2500
-	funding_source = "DSS Subsidiaries"
+	funding_source = "D.S.S. Subsidiaries"
 
 /datum/department/prospector
 	name = "Prospectors"
@@ -137,4 +137,4 @@
 	account_initial_balance = 7500
 	funding_type = FUNDING_EXTERNAL
 	account_budget = 2500
-	funding_source = "DSS Subsidiaries"
+	funding_source = "D.S.S. Subsidiaries"
