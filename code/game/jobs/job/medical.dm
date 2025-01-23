@@ -232,7 +232,7 @@
 							 /datum/computer_file/program/camera_monitor)
 
 	description = "The Paramedic provides medical assistance on the field, while other doctors are busy in their department.<br>\
-	You are trained but lack seniority. Follow the guidance of other doctors - and transport patients back for specialist treatments.<br>\
+	You are highly trained but lack seniority. Follow the guidance of other doctors - and transport patients back for specialist treatments.<br>\
 	Remember that you must often respond to emergencies. Pack your gear carefully and bring a breaching tool - be ready to run at short notice.<br>\
 	Your other duties include transporting patients between rooms, running errands, and generally saving time for other doctors.<br>\
 	Corpse recovery may also fall within your duties. If the body is in a dangerous location, enlist the help of the Blackshield or the Church."
