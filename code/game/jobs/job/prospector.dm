@@ -7,7 +7,7 @@
 	faction = MAP_FACTION
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Nadezhda Council"
+	supervisors = "the Darkwall Council"
 	difficulty = "Hard."
 	selection_color = "#97b0be"
 	req_admin_notify = 1
@@ -38,7 +38,7 @@
 							 /datum/computer_file/program/camera_monitor,
 							 /datum/computer_file/program/reports)
 
-	description = "The Foreman oversees the hazardous labor of Nadezhda Shipping & Salvage, directly leading scavenger teams seeking fortune from ruins and scrap.<br>\
+	description = "The Foreman oversees the hazardous labor of Darkwall Shipping & Salvage, directly leading scavenger teams seeking fortune from ruins and scrap.<br>\
 	Your goal is to lead your team into hostile locations and take everything of value that isn't nailed down - and the nails too!<br>\
 	As potentially the youngest head of staff and the one expected to be in the most danger at all times you should be independent and cunning.<br>\
 	Your work is perhaps the most dangerous within the entire colony, so good combat and survival skills are essential. Consider bringing a GPS device<br>\
@@ -157,7 +157,7 @@
 
 	outfit_type = /decl/hierarchy/outfit/job/cargo/mining
 
-	description = "The Drill Technician is a professional resource procurer, acquiring valuable minerals for Nadezhda Shipping & Salvage.<br>\
+	description = "The Drill Technician is a professional resource procurer, acquiring valuable minerals for Darkwall Shipping & Salvage.<br>\
 Your primary responsibility is to descend into the deep tunnels and dig up as much ore as you can.<br>\
 Accessed by elevator, the area contains an outpost with all the facilities to process said ore and deliver refined materials ready for use.<br>\
 Whatever you dig up will go to the warehouse, and from then on it is the responsibility of others to sell it.<br>\

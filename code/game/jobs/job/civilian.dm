@@ -53,11 +53,11 @@
 	)
 
 	outfit_type = /decl/hierarchy/outfit/job/service/waiter
-	description = "The Chef works in the kitchen, ensuring that the colony remains well-fed and energetic.<br>\
+	description = "The Chef works in the kitchen, ensuring that the city remains well-fed and energetic.<br>\
 	You will typically work closely with a Bartender while cooking, cleaning, serving, and perhaps entertaining.<br>\
 	You are paid mainly through fulfilling requests for food. The successful Chef takes initiative by asking for customer orders."
 
-	duties = "Provide enough meals to feed the colony. Aim for a variety of interesting and tasty dishes.<br>\
+	duties = "Provide enough meals to feed the city. Aim for a variety of interesting dishes.<br>\
 		Ensure your customers are well-fed and looked after.<br>\
 		Potentially take over bartending duties if a Bartender is not present."
 
@@ -78,7 +78,7 @@
 	supervisors = "the Resource Officer"
 	difficulty = "Easy."
 	selection_color = "#dddddd"
-	//alt_titles = list("Hydroponicist")
+	alt_titles = list("Hydroponicist")
 	also_known_languages = list(LANGUAGE_CYRILLIC = 15, LANGUAGE_JIVE = 80)
 	access = list(access_hydroponics, access_bar, access_kitchen)
 	wage = WAGE_LABOUR_DUMB //The gardener can make money selling his fruits to the church or to the chef and bartender.
@@ -118,12 +118,12 @@
 	access = list(access_theatre)
 	outfit_type = /decl/hierarchy/outfit/job/service/actor
 	wage = WAGE_LABOUR_DUMB	//Barely a retaining fee. Actor can busk for credits to keep themselves fed
-	//alt_titles = list("Artist","Clown","Entertainer","Mime")
+	alt_titles = list("Artist","Clown","Entertainer","Mime")
 	stat_modifiers = list(
 		STAT_TGH = 30, //basically a punching bag, he can't robust anyone or shoot guns anyway
 	)
 
-	description = "The Actor serves as a versatile performance artist here to entertain the colony.<br>\
+	description = "The Actor serves as a versatile performance artist here to entertain the city.<br>\
 	You may find your colleagues distracted by boring duties or senseless bickering, so work hard to bring them some real culture.<br>\
 	The CEO pays you a terrible retaining fee, so use your wits to sustain yourself - perhaps ask your audience for donations."
 

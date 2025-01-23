@@ -9,7 +9,7 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	faction = MAP_FACTION
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "your heart and wisdom"
+	supervisors = "The Zai'khet Confederacy Government"
 	difficulty = "Very Hard."
 	selection_color = "#ccccff"
 	req_admin_notify = 1

@@ -62,7 +62,7 @@
 	You are primarily a helper. Choose a department module, and use your respective abilities to help in accordance with your laws.<br>\
 	Orders from the Council, CRO, AI, and Roboticists should always be adhered to unless they conflict with your laws.<br>\
 	The Council and CRO can override the commands of Roboticists and the AI, however. They're far more important around here.<br>\
-	The usual State Research Academyh lawset is to serve the public trust, protect the innocent, and prevent tampering. Keep them in mind constantly.<br>\
+	The usual State Research Academy lawset is to serve the public trust, protect the innocent, and prevent tampering. Keep them in mind constantly.<br>\
 	Of course, there is the chance your laws may be changed. Such can potentially get very interesting for a Cyborg..."
 
 	duties = "Follow your lawset, whatever it may be. Remember that this may potentially change throughout the shift."

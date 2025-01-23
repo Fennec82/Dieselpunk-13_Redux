@@ -1,8 +1,7 @@
-![](https://cdn.discordapp.com/attachments/265411250341543936/269612274765791242/eris_128.png)
-# Endless Horizon: CEV-Eris [![Build Status](https://travis-ci.org/discordia-space/CEV-Eris.svg?branch=master)](https://travis-ci.org/Endless-Horizon/CEV-Eris)[![Krihelimeter](http://www.krihelinator.xyz/badge/discordia-space/CEV-Eris/)](http://www.krihelinator.xyz)
-[![discord](https://discordapp.com/api/guilds/255035529085583360/widget.png)](https://discord.gg/QfEg7K7)
+# Chaosstation-Dieselpunk 13 [![Linters](https://github.com/Fennec82/Dieselpunk-13_Redux/actions/workflows/super-linter.yml/badge.svg?branch=master)](https://github.com/Fennec82/Dieselpunk-13_Redux/actions/workflows/super-linter.yml)
 
-Корабль, который должен умирать.
+A Chaosstation-brand fork of Dieselpunk-13 that follows Empire of Kurzikstan lore
+For any questions, contact the Chaosstation Host and Empire of Kurzikstan Loremaster at @Fennec82 on GitHub or @Arrhythmia_V on Steam or Telegram
 
 ## CONTRIBUTING
 

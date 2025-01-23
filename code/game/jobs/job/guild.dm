@@ -27,7 +27,7 @@
 		STAT_MEC = 15,
 		STAT_VIG = 10
 	)
-	description = "The Resource Officer coordinates the affairs of the local branch of Nadezhda Shipping & Salvage.<br>\
+	description = "The Resource Officer coordinates the affairs of the local branch of Darkwall Shipping & Salvage.<br>\
 Your main objective, bluntly, is to make as much money as you can. Purchase and acquire goods, and sell them on for a profit.<br>\
 Your Warehouse Technicians will handle most of the grunt work and your Miners will acquire minerals. They are capable - utilise them well.<br>\
 The vendors found throughout the ship are also operated by your organisation. They make you money - ensure they are functional and well-stocked.<br>\
@@ -87,7 +87,7 @@ Counsel the council on directing the colony towards profitable opportunities."
 							 /datum/computer_file/program/reports)
 
 
-	description = "The Cargo Technician forms the backbone of Lonestar Shipping Solutions, equal parts scavenger, loader, and salesman.<br>\
+	description = "The Cargo Technician forms the backbone of Darkwall Shipping Solutions, equal parts scavenger, loader, and salesman.<br>\
 Your main duty is to keep the local company branch operational and profitable. Deliver goods, take payments and orders, and buy from scavengers.<br>\
 In quieter times, use your initiative. Visit departments to ask if there's anything they need and try to sell them unusual items.<br>\
 Busted lights? Broken vendors? Offer your services for a small fee. You may also find profit in the maintenance tunnels.<br>\
@@ -171,7 +171,7 @@ Avoid the deeper tunnels unless otherwise instructed, however - this domain is h
 							 /datum/computer_file/program/wordprocessor,
 							 /datum/computer_file/program/reports)
 
-	description = "The Shipping Manager tends to the supply and demand of the city and the NSS subsidiaries.<br>\
+	description = "The Shipping Manager tends to the supply and demand of the city and the D.S.S. subsidiaries.<br>\
 	Your primary responsibility is to oversee imports and exports in order to keep the cash flowing in.<br>\
 	You also offer bulk supplies to the other departments, for a price, and the Weapons Factory is a valuable source of potential income.<br>\
 	You are well paid, and your knowledge of maintenance may lead you to some valuable salvage for some extra cash. So will the recycling efforts of your Custodians"
