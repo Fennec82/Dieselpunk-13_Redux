@@ -42,7 +42,7 @@
 		CRUCIFORM_REDLIGHT
 	)
 
-	description = "The Confessor serves as the head of the local branch of the Order Hospitaller. <br>\
+	description = "The Confessor serves as the head of the local branch of the Ordo Hospitaller. <br>\
 	You represent the interest of the church and its disciples within the colony - identified by the cruciform implant upon their breast.<br>\
 	Your most pressing duty is as a spiritual leader. Preach to the flock, inspire faith and strength, and convert those seeking salvation.<br>\
 	While you are no trained psychologist, you can provide support and guidance to all - in both bright and dark times.<br>\
@@ -51,7 +51,7 @@
 	duties = "Represent the interests of disciples on the colony. Protect them from persecution and speak for them.<br>\
 		Hold mass, give sermons, preach to the faithful, and lead group ritual sessions.<br>\
 		Recover and revive the faithful dead. Hold funerals for those who cannot be saved, and ensure any missing cruciforms are recovered.<br>\
-		Oversee the Knights Hospitaller, whose duty it is to retrieve the dead and damned. Do not allow others to steal from the Order unpunished."
+		Oversee the Knights Hospitaller, whose duty it is to retrieve the dead and damned. Do not allow others to steal from the Ordo unpunished."
 
 	setup_restricted = TRUE
 
@@ -87,12 +87,12 @@
 		CRUCIFORM_PRIEST
 	)
 
-	description = "The Chaplaincy serves the City, and more generally the Order, as medical professionals.<br>\
+	description = "The Chaplaincy serves the City, and more generally the Ordo, as medical professionals.<br>\
 	The duties of operating the bioreactor and managing biomass supplies fall to you, but you are also expected to provide aid wherever it is requested or required.<br>\
-	You should also work to present the Order in a positive light to all citizens. The Confessor may issue you with further duties."
+	You should also work to present the Ordo in a positive light to all citizens. The Confessor may issue you with further duties."
 
-	duties = "Operate the bioreactor and manage biomass for the Order's machines.<br>\
-		Maintain areas owned by the Order, keeping the facilities functional and in good order.<br>\
+	duties = "Operate the bioreactor and manage biomass for the Ordo's machines.<br>\
+		Maintain areas owned by the Ordo, keeping the facilities functional and in good Ordo.<br>\
 		Offer assistance to the faithful and non-faithful alike."
 
 	setup_restricted = TRUE
@@ -131,12 +131,12 @@
 		CRUCIFORM_KNIGHT
 	)
 
-	description = "The Knighthood serves the City, and more generally the Order, as the penultimate Search and Rescue specialists.<br>\
+	description = "The Knighthood serves the City, and more generally the Ordo, as the penultimate Search and Rescue specialists.<br>\
 	You are responsible for directly overseeing the efforts of the Brother-Sergeants and the recovery teams they lead.<br>\
-	You should also work to present the Order in a positive light to all citizens. The Confessor may issue you with further duties."
+	You should also work to present the Ordo in a positive light to all citizens. The Confessor may issue you with further duties."
 
-	duties = "Direct the Brother-Sergeants and Brother-Corporals. Help them make good use of the Order's technology.<br>\
-		Protect areas owned by the Order, keeping the facilities safe and secure.<br>\
+	duties = "Direct the Brother-Sergeants and Brother-Corporals. Help them make good use of the Ordo's technology.<br>\
+		Protect areas owned by the Ordo, keeping the facilities safe and secure.<br>\
 		Offer assistance to the faithful and non-faithful alike. You can use any of the litanies that the Chaplaincy can.<br>\
 		Keep a watchful eye for Chaplains and Novices who demonstrate substantial bravery, selflessness, or leadership. You are a recruiter of such fine individuals."
 
@@ -175,12 +175,12 @@
 		CRUCIFORM_SERGEANT
 	)
 
-	description = "The Knighthood serves the City, and more generally the Order, as the penultimate Search and Rescue specialists.<br>\
+	description = "The Knighthood serves the City, and more generally the Ordo, as the penultimate Search and Rescue specialists.<br>\
 	You are responsible for leading a team of Brother-Corporals on search and rescue missions.<br>\
-	You should also work to present the Order in a positive light to all citizens. The Confessor may issue you with further duties."
+	You should also work to present the Ordo in a positive light to all citizens. The Confessor may issue you with further duties."
 
 	duties = "Direct your Brother-Corporals. Run practice drills with them in friendly and hostile territory alike. Recover the dead and dying.<br>\
-		Protect areas owned by the Order, keeping the facilities safe and secure when not on a recovery mission. <br>\
+		Protect areas owned by the Ordo, keeping the facilities safe and secure when not on a recovery mission. <br>\
 		Offer assistance to the faithful and non-faithful alike. You can use any of the litanies that the Chaplaincy can."
 
 	setup_restricted = TRUE
@@ -217,12 +217,12 @@
 		CRUCIFORM_SQUIRE
 	)
 
-	description = "The Knighthood serves the City, and more generally the Order, as the penultimate Search and Rescue specialists.<br>\
+	description = "The Knighthood serves the City, and more generally the Ordo, as the penultimate Search and Rescue specialists.<br>\
 	You are responsible for participating in search and rescue missions. You are also expected to defend your patients with your life.<br>\
-	You should also work to present the Order in a positive light to all citizens. The Confessor may issue you with further duties."
+	You should also work to present the Ordo in a positive light to all citizens. The Confessor may issue you with further duties."
 
 	duties = "Recover the dead and dying. Stabilise them on-site and use your bluespace equipment to return they and you to the Monastery for treatment<br>\
-		Protect areas owned by the Order, keeping the facilities safe and secure when not on a recovery mission. Neutralize threats to your patients if they present themselves.<br>\
+		Protect areas owned by the Ordo, keeping the facilities safe and secure when not on a recovery mission. Neutralize threats to your patients if they present themselves.<br>\
 		Offer assistance to the faithful and non-faithful alike. You can use any of the litanies that the Chaplaincy can."
 
 	setup_restricted = TRUE

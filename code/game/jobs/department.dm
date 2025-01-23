@@ -110,7 +110,7 @@
 	name = "Ordo Hospitaller"
 	id = DEPARTMENT_CHURCH
 	funding_type = FUNDING_EXTERNAL
-	funding_source = "Orden Hospitaller"
+	funding_source = "Ordo Hospitaller"
 
 
 
