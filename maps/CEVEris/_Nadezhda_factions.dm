@@ -87,7 +87,7 @@
 	darkcolor = "#051d66"
 	lightcolor = "#5b83ff"
 
-	stamptext = "This paper has been stamped with the crest of a Marshal of the Order."
+	stamptext = "This paper has been stamped with the crest of a Marshal of the Ordo."
 	stampshape = "paper_stamp-dots"
 
 /datum/faction/nadezhda/kriosans
