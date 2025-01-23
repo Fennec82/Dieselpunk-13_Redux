@@ -52,7 +52,7 @@
 	stampshape = "paper_stamp-dots"
 
 /datum/faction/nadezhda/lonestar
-	name = "Nadezhda Shipping & Salvage - Dimitri Volkov"
+	name = "Nadezhda Shipping & Salvage - Comptroller General"
 
 	fax_alert = "N.S.S. REQUISITION FAX"
 	fax_response = "N.S.S Correspondance"
