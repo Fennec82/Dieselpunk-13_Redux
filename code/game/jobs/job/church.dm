@@ -7,7 +7,7 @@
 	head_position = 1
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the High Council"
+	supervisors = "the City Council, and God"
 	difficulty = "Medium."
 	selection_color = "#ecd37d"
 	ideal_character_age = 40
