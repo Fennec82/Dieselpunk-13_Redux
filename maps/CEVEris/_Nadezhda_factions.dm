@@ -78,7 +78,7 @@
 	stampshape = "paper_stamp-dots"
 
 /datum/faction/nadezhda/church
-	name = "The Orden Hospitaller - Knight Commander"
+	name = "The Ordo Hospitaller - Knight Commander"
 
 	fax_alert = "HOSPITALLER FAX"
 	fax_response = "Hospitaller Decree"
