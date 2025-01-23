@@ -2,7 +2,7 @@
 
 A Chaosstation-brand fork of Dieselpunk-13 that follows Empire of Kurzikstan lore
 
-For any questions, contact the Chaosstation Host and Empire of Kurzikstan Loremaster at @Fennec82 on Github or @Arrhythmia_V on Steam or Telegram 
+For any questions, contact the Chaosstation Host and Empire of Kurzikstan Loremaster at @Fennec82 on GitHub or @Arrhythmia_V on Steam or Telegram 
 
 ## CONTRIBUTING
 
