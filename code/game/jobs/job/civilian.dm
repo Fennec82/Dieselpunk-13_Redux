@@ -78,7 +78,7 @@
 	supervisors = "the Resource Officer"
 	difficulty = "Easy."
 	selection_color = "#dddddd"
-	//alt_titles = list("Hydroponicist")
+	alt_titles = list("Hydroponicist")
 	also_known_languages = list(LANGUAGE_CYRILLIC = 15, LANGUAGE_JIVE = 80)
 	access = list(access_hydroponics, access_bar, access_kitchen)
 	wage = WAGE_LABOUR_DUMB //The gardener can make money selling his fruits to the church or to the chef and bartender.
