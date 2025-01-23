@@ -7,7 +7,7 @@
 	faction = MAP_FACTION
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the High Council"
+	supervisors = "Infantry High Command"
 	difficulty = "Very Hard."
 	selection_color = "#97b0be"
 	req_admin_notify = 1
@@ -40,8 +40,8 @@
 							 /datum/computer_file/program/reports)
 
 	description = "The Infantry Commander serves as the commander of the Mechanized Infantry company.<br>\
-	Contracted to protect and serve the Nadezhda Commonwealth, your comapny serves as a voluntary first (and hopefully last) line of defense.<br>\
-	Your goal is to keep everyone living in the city as safe as possible and to eliminate any threats to the Commonwealth.<br>\
+	Contracted to protect and serve the Darkwall Commune, your comapny serves as a voluntary first (and hopefully last) line of defense.<br>\
+	Your goal is to keep everyone living in the city as safe as possible and to eliminate any threats to the Commune.<br>\
 	The Provost Marshal is your ally and you should work closely with them, they handle the upholding of the law."
 
 	duties = "Coordinate operatives in the field, assigning them to threats and distress calls as needed.<br>\
@@ -65,7 +65,7 @@
 	faction = MAP_FACTION
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the High Council"
+	supervisors = "Provost High Command"
 	difficulty = "Very Hard."
 	selection_color = "#97b0be"
 	req_admin_notify = 1
@@ -344,7 +344,7 @@
 							 /datum/computer_file/program/camera_monitor)
 
 	description = "The Trooper forms the base of the Black Guard, the frontline against pirates, terrorists, and xenos.<br>\
-	You are a professional soldier in service to the Commonwealth. Employ your talents to bring an end to threats and conflict situations.<br>\
+	You are a professional soldier in service to the Commune. Employ your talents to bring an end to threats and conflict situations.<br>\
 	Tactics and teamwork are vital. You are paid to follow orders, not to think. Remember your focus on external threats - leave otherwise to Marshals.<br>\
 	When there are no standing orders, your ongoing task is to patrol and be on the lookout for threats or problems. Help the Marshals if explicitly asked. <br>\
 	Watch the main gate and perimeter. You have access to most places to help with your duties - do not abuse this."

@@ -7,7 +7,7 @@
 	faction = MAP_FACTION
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the High Council"
+	supervisors = "the DSRA Headmaster"
 	difficulty = "Medium."
 	selection_color = "#b39aaf"
 	req_admin_notify = 1
@@ -42,12 +42,12 @@
 							/datum/computer_file/program/chem_catalog,
 							/datum/computer_file/program/reports)
 
-	description = "The Research Overseer is the head of the research branch of the Nadezhda State Research Academy, directing science activities.<br>\
+	description = "The Research Overseer is the head of the research branch of the Darkwall State Research Academy, directing science activities.<br>\
 	The scientists under your command are working on a range of projects. Direct them towards the best interests of the organisation.<br>\
 	With oversight over the funds, you may also purchase scientific artefacts and anything else of research value - even funding away missions.<br>\
 	Even use your position to request support from other factions if required. Most colonists do not understand your work, but know its value.<br>\
 	Of course, remember that you are a scientist yourself - feel free to get into the lab and work on R&D or xeno-related research.<br>\
-	The Medical wing also falls under the ownership of NaSRA. You may use their resources - and they may use yours - as needed."
+	The Medical wing also falls under the ownership of DSRA. You may use their resources - and they may use yours - as needed."
 
 	duties = "Direct the scientists under your command towards the bettering of all mankind.<br>\
 	Ensure a healthy stock of research equipment through management of department funds.<br>\
@@ -90,9 +90,9 @@
 		STAT_BIO = 10,
 	)
 
-	description = "The Scientist is a researcher representing the Nadezhda State Research Academy, standing at the frontier of human advancement.<br>\
+	description = "The Scientist is a researcher representing the Darkwall State Research Academy, standing at the frontier of technological advancement.<br>\
 	You may engage in a variety of research projects in four distinct fields - R&D, Xenoflora, Xenobiology, and Xenoarchaeology.<br>\
-	The manufacture of high tech devices is the primary source of income for NaSRA, but artefacts and alien life may offer great potential.<br>\
+	The manufacture of high tech devices is the primary source of income for DSRA, but artefacts and alien life may offer great potential.<br>\
 	Remember that dedicated specialists exist for robotics projects. You may work closely for general R&D, but avoid taking over robotics."
 
 	duties = "Advance the cause of knowledge with various research projects.<br>\
@@ -135,7 +135,7 @@
 
 	perks = list(/datum/perk/selfmedicated)
 
-	description = "The Roboticist is a specialised scientist with a busy workload - at the forefront of NaSRA's service offerings.<br>\
+	description = "The Roboticist is a specialised scientist with a busy workload - at the forefront of DSRA's service offerings.<br>\
 	You must maintain and upgrade the fleet of synthetics that keep the ship running, as well as constructing new ones on occasion.<br>\
 	In addition, you may be asked to manufacture prosthetic limbs and enhancements. Medical can perform the installation if you lack surgical skills.<br>\
 	Though not requested often you can also construct massive and powerful mechanised vehicles. These have powerful mining, rescue, and military applications.<br>\

@@ -7,7 +7,7 @@
 	faction = MAP_FACTION
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the High Council"
+	supervisors = "the DSRA Headmaster"
 	difficulty = "Hard."
 	selection_color = "#94a87f"
 	req_admin_notify = 1
@@ -42,7 +42,7 @@
 	Your main responsibility is to keep everyone alive, as is the objective of your department. Prioritise health over most other concerns. <br>\
 	A variety of medical staff work under your command. Although these roles are clear-cut compared to the research branch, direct them appropriately.<br>\
 	Of course, remember that you are a doctor yourself - feel free to help with less specialised activities to ease the burden.<br>\
-	The Medical wing also falls under the ownership of Nadezhda State Research Academy. You may use their resources - and they may use yours - as needed."
+	The Medical wing also falls under the ownership of Darkwall State Research Academy. You may use their resources - and they may use yours - as needed."
 
 	duties = "Direct the doctors under your command towards the bettering of all mankind.<br>\
 	Dispatch your paramedics to distress calls, and corpse recoveries as needed.<br>\
@@ -139,7 +139,7 @@
 	Your primary role is that of a thug for medical. You make sure that medical remains safe by ensuring people don't trespass or steal items and remove those who shouldn't be there, by force if necessary.<br>\
 	Your secondary responsibility is that of an enforcer. Actions that require in house enforcement such as aiding doctors and security with violent patients in medical, securing the virology lab during an outbreak, and aiding in the destruction of escape slimes or kudzu from science.<br>\
 	Your third duty is to aid medical doctors and paramedics in fixing patients, this can include retrieving chemicals, doing basic triage, and accompanying paramedics to aid them in getting injured patients.<br>\
-	You are fully licensed to sell any and all chemicals to all citizens. If someone isn't an employee of the Nadezhda State Research Academy, charge them for their chemicals.<br>\
+	You are fully licensed to sell any and all chemicals to all citizens. If someone isn't an employee of the Darkwall State Research Academy, charge them for their chemicals.<br>\
 	It's worth noting that you function heavily as a nurse when not acting as muscle and treatment of patients should be priority, in particular when assisting doctors."
 
 	duties = "Act as a guard for medical, ensuring unneeded citizen leave and nothing is stolen.<br>\
